@@ -58,5 +58,14 @@
 
 	.page-list {
 		margin: auto auto;
+		flex-wrap: wrap;
+	}
+
+	.page-list a {
+		margin: 5px 15px;
+	}
+
+	.page-list a:last-child {
+		margin: 5px 15px;
 	}
 }
