@@ -8,6 +8,13 @@ url: ""
 
 permalink: ./:year-:month-:day/:title/
 
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
 # Build settings
 plugins:
   - jekyll-feed
