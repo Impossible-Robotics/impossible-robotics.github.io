@@ -1,0 +1,60 @@
+:root {
+	--main-accent: rgb(211, 75, 36);
+	--main-accent-light: rgb(247, 100, 59);
+	--main-light: rgb(240, 240, 240);
+	--main-medium: rgb(209, 208, 207);
+	--main-text: rgb(0, 0, 0);
+	--main-text-light: rgb(94, 94, 94);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+p, h1, a {
+	font-family: Arial, Helvetica, sans-serif;
+	color: var(--main-text);
+}
+
+a {
+	text-decoration: none;
+	color: var(--main-accent);
+	transition: 0.2s;
+}
+
+a:hover {
+	color: var(--main-accent-light);
+	transform: scale(0.97);
+}
+
+html {
+	background-color: var(--main-medium);
+}
+
+.button {
+	background-color: var(--main-accent);
+	color: var(--main-text);
+	border-radius: 20px;
+	padding: 10px 15px;
+	box-shadow: 0 0 20px rgb(184, 184, 184);
+}
+
+.button:hover {
+	background-color: var(--main-accent-light);
+	color: var(--main-text);
+}
+
+.container {
+	background-color: var(--main-light);
+	padding: 30px;
+	border-radius: 20px;
+	box-shadow: 0 0 20px rgb(184, 184, 184);
+}
+
+.underlined-title {
+	border-bottom-style: solid;
+	border-bottom-color: var(--main-accent);
+	padding-bottom: 10px;
+	font-size: 20pt;
+}

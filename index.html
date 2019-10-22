@@ -1,0 +1,54 @@
+---
+layout: base
+title: Home
+---
+
+<div class="home-content">
+  <div class="home-posts">
+    {% for post in site.posts limit:5 %}
+    <div class="home-post container">
+      <h1 class="underlined-title">{{ post.title }}</h1>
+      <div class="home-post-content">
+        {{ post.content }}
+      </div>
+      <div class="home-post-info">
+        <p>{{ post.author }}, {{ post.date | date_to_long_string }}</p>
+      </div>
+    </div>
+    {% endfor %}
+
+    <div class="home-more-posts">
+      <a href="posts/" class="button">More Posts</a>
+    </div>
+  </div>
+
+  <div class="home-sidebar">
+    <div class="home-featured-post container home-sidebar-element">
+      <h1 class="featured-post-label underlined-title">Featured Post</h1>
+
+      {% for post in site.posts %}
+        {% if post.path contains "featured" %}
+          {% assign featured-post = post %}
+        {% endif %}
+      {% endfor %}
+
+      <a href="{{ featured-post.url }}">
+        <h1 class="featured-post-title">{{ featured-post.title }}</h1>
+        <p class="featured-post-summary">{{ featured-post.summary }}</p>
+        
+        {% if featured-post.featured-image != nil %}
+          <img src="{{ featured-post.featured-image }}" alt="Featured Post Image">
+        {% endif %}
+      </a>
+      <a href="{{ featured-post.url }}" class="button">Read More</a>
+    </div>
+
+    <div class="home-sponsors container home-sidebar-element">
+      <h1 class="featured-post-label underlined-title">Powered By</h1>
+
+      <a href="https://www.victronenergy.com/"><img src="res/logos/sponsors/victron_energy.png" alt="Victron Energy"></a>
+      <a href="https://www.hanze.nl/eng"><img src="res/logos/sponsors/hanze.png" alt="Hanzehogeschool"></a>
+      <a href="https://www.nhlstenden.com/en"><img src="res/logos/sponsors/nhl.png" alt="NHL"></a>
+    </div>
+  </div>
+</div>
