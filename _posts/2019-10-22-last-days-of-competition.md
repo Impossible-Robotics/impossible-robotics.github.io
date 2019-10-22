@@ -15,7 +15,7 @@ On day 5 and 6 we played our last six qualification matches. Before every round,
 ![consultation]
 ![team-image-2]
 
-[team-image-1]: res/posts/2019-10-22-last-days-of-competition/20180818_140104.jpg
-[match]: res/posts/2019-10-22-last-days-of-competition/20180817_123322.jpg
-[consultation]: res/posts/2019-10-22-last-days-of-competition/20180817_163248.jpg
-[team-image-2]: res/posts/2019-10-22-last-days-of-competition/20180818_124438.jpg
+[team-image-1]: /res/posts/2019-10-22-last-days-of-competition/20180818_140104.jpg
+[match]: /res/posts/2019-10-22-last-days-of-competition/20180817_123322.jpg
+[consultation]: /res/posts/2019-10-22-last-days-of-competition/20180817_163248.jpg
+[team-image-2]: /res/posts/2019-10-22-last-days-of-competition/20180818_124438.jpg

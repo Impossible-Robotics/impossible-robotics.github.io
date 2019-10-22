@@ -20,7 +20,7 @@ Sadly, our flight had to be canceled because of technical issues. We ended up sp
 
 Luckily, we will be able to fly to Mexico tomorrow and we should arrive on time for the competition. We are looking forward to meeting all the other teams there and wish everyone the best of luck in the upcoming games.
 
-[airport-image-1]: res/posts/2019-10-22-on-our-way-to-mexico/20180813_142351.jpg
-[crate]: res/posts/2019-10-22-on-our-way-to-mexico/20180812_173153.jpg
-[luggage]: res/posts/2019-10-22-on-our-way-to-mexico/20180813_071814.jpg
-[airport-image-2]: res/posts/2019-10-22-on-our-way-to-mexico/20180813_155854.jpg
+[airport-image-1]: /res/posts/2019-10-22-on-our-way-to-mexico/20180813_142351.jpg
+[crate]: /res/posts/2019-10-22-on-our-way-to-mexico/20180812_173153.jpg
+[luggage]: /res/posts/2019-10-22-on-our-way-to-mexico/20180813_071814.jpg
+[airport-image-2]: /res/posts/2019-10-22-on-our-way-to-mexico/20180813_155854.jpg

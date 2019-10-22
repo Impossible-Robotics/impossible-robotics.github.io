@@ -17,4 +17,4 @@ The second day we continued to explore our options we choose for the robot. We p
 
 We are excited for the upcoming weeks and wish all the other teams the best of luck for the Destination: Deep Space season.
 
-[team-image]: res/posts/2019-10-22-frc-kickoff/t1.jpg
+[team-image]: /res/posts/2019-10-22-frc-kickoff/t1.jpg

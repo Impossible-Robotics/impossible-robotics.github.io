@@ -17,7 +17,7 @@ Our team aims to inspire and enthuse everyone for technology, from kids, to teen
 
 FIRST is an American organization that took upon itself the task to promote technology worldwide. To achieve this goal, First, among other things, organizes multiple competitions, including the FIRST Robotics Competition. For more information about FIRST or the FRC click [here][first-info].
 
-[team-image]: res/posts/2019-10-22-new-website/Reveal_Doe_Museum_Veendam-29.jpg
+[team-image]: /res/posts/2019-10-22-new-website/Reveal_Doe_Museum_Veendam-29.jpg
 
 [team-info]: http://www.impossible-robotics.com/about-us/
 [goals]: http://www.impossible-robotics.com/dev/our-vision/
