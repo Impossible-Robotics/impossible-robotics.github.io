@@ -1,8 +1,7 @@
 title: Impossible Robotics
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Welcome to the official Impossible Robotics blog site!
+  Here you can find the latest news, stories and much more!
 baseurl: ""
 url: ""
 
@@ -15,6 +14,110 @@ defaults:
     values:
       layout: "post"
 
+sponsors:
+  - name: 'Victron Energy'
+    image: '/res/logos/sponsors/victron_energy.png'
+    url:  'https://www.victronenergy.com/'
+    is-main: true
+
+  - name: 'Hanzehogeschool'
+    image: '/res/logos/sponsors/hanze.png'
+    url:  'https://www.hanze.nl/eng'
+    is-main: true
+
+  - name: 'NHL Stenden Hogeschool'
+    image: '/res/logos/sponsors/nhl.png'
+    url:  'https://www.nhlstenden.com/'
+    is-main: true
+
+  - name: Ijntema BV
+    image: '/res/logos/sponsors/ijntema_bv.png'
+    url: 'https://www.ijntema-bv.nl/'
+    is-main: false
+
+  - name: 'H-Tronics'
+    image: '/res/logos/sponsors/h_tronics.png'
+    is-main: false
+
+  - name: 'HR Groep'
+    image: '/res/logos/sponsors/hr_groep.png'
+    url: 'https://www.hrgroep.nl'
+    is-main: false
+
+  - name: 'C&W Snijtechniek'
+    image: '/res/logos/sponsors/cw_snijtechniek.png'
+    url: 'http://www.snijtechniek.com'
+    is-main: false
+
+  - name: 'Neopost Technologies BV'
+    image: '/res/logos/sponsors/neopost.png'
+    url: 'https://www.neopost-technologies.nl/'
+    is-main: false
+
+  - name: 'YP-Your Partner'
+    image: '/res/logos/sponsors/yp-your-partner.png'
+    url: 'https://yp-yourpartner.nl'
+    is-main: false
+
+  - name: 'Ventura Systems'
+    image: '/res/logos/sponsors/.png'
+    url: 'https://www.venturasystems.com/'
+    is-main: false
+
+  - name: 'Ultimaker'
+    image: '/res/logos/sponsors/ultimaker.png'
+    url: 'https://ultimaker.com'
+    is-main: false
+
+  - name: 'Kisuma Chemicals'
+    image: '/res/logos/sponsors/kitsuma.png'
+    url: 'https://www.kisuma.com'
+    is-main: false
+
+  - name: 'Kwant Controls'
+    image: '/res/logos/sponsors/kwant-controls.png'
+    url: 'https://www.kwantcontrols.com'
+    is-main: false
+
+  - name: 'Vos Systems'
+    image: '/res/logos/sponsors/vos-systems.png'
+    url: 'http://vossystems.nl'
+    is-main: false
+
+  - name: 'JB Besturingstechniek'
+    image: '/res/logos/sponsors/jb-besturingstechniek.png'
+    url: 'https://www.jbbesturingstechniek.nl'
+    is-main: false
+
+  - name: 'Cadmatic'
+    image: '/res/logos/sponsors/cadmatic.png'
+    url: 'https://www.cadmatic.com'
+    is-main: false
+
+  - name: 'Region of Smart Factories'
+    image: /res/logos/sponsors/rosf.png'
+    url: 'https://rosf.nl'
+    is-main: false
+
+  - name: 'Altium'
+    image: '/res/logos/sponsors/altium.png'
+    url: 'https://www.altium.com'
+    is-main: false
+
+  - name: 'Part Techniek'
+    image: '/res/logos/sponsors/part-techniek.png'
+    url: 'https://www.parttechniek.nl'
+    is-main: false
+
+  - name: 'MCA Molenberg'
+    image: '/res/logos/sponsors/mcabv.png'
+    url: 'https://www.mcabv.nl'
+    is-main: false
+
+  - name: 'Middelbos'
+    image: '/res/logos/sponsors/middelbos.png'
+    url: 'https://www.middelbos.nl'
+    is-main: false
 # Build settings
 plugins:
   - jekyll-feed

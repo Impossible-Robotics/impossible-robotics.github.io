@@ -2,3 +2,29 @@
 layout: base
 title: 'Sponsors'
 ---
+
+<h1>Thanks to all of our sponsors!</h1>
+<p>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam fugit quo officia vel totam repellat in modi. Quis
+  vitae labore illo nulla exercitationem atque ratione? Dolores accusantium optio facilis nesciunt.
+</p>
+
+<div class="main-sponsors container">
+  <h1>Main Sponsors</h1>
+
+  {% for sponsor in site.sponsors %}
+  {% if sponsor.is-main %}
+  <p>{{ sponsor.name }}</p>
+  {% endif %}
+  {% endfor %}
+</div>
+
+<div class="sponsors container">
+  <h1>Sponsors</h1>
+
+  {% for sponsor in site.sponsors %}
+  {% if sponsor.is-main == false %}
+  <p>{{ sponsor.name }}</p>
+  {% endif %}
+  {% endfor %}
+</div>
