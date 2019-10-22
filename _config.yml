@@ -6,6 +6,8 @@ description: >-
 baseurl: ""
 url: ""
 
+permalink: ./:year-:month-:day/:title/
+
 # Build settings
 plugins:
   - jekyll-feed
