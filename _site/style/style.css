@@ -3,6 +3,7 @@
 	--main-accent-light: rgb(247, 100, 59);
 	--main-light: rgb(240, 240, 240);
 	--main-medium: rgb(209, 208, 207);
+	--main-dark: rgb(172, 172, 172);
 	--main-text: rgb(0, 0, 0);
 	--main-text-light: rgb(94, 94, 94);
 }
@@ -34,7 +35,7 @@ html {
 
 .button {
 	background-color: var(--main-accent);
-	color: var(--main-text);
+	color: var(--main-light);
 	border-radius: 20px;
 	padding: 10px 15px;
 	box-shadow: 0 0 20px rgb(184, 184, 184);
@@ -42,7 +43,7 @@ html {
 
 .button:hover {
 	background-color: var(--main-accent-light);
-	color: var(--main-text);
+	color: var(--main-light);
 }
 
 .container {
@@ -57,4 +58,17 @@ html {
 	border-bottom-color: var(--main-accent);
 	padding-bottom: 10px;
 	font-size: 20pt;
+}
+
+.text-in-line {
+	text-align: center;
+	border-bottom: 2px solid var(--main-dark);
+	line-height: 0.1em;
+	margin: 10px 0 10px;
+}
+
+.text-in-line span {
+	background: var(--main-medium);
+	color: var(--main-dark);
+	padding:0 15px;
 }

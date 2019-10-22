@@ -3,7 +3,7 @@ title: 'New Website'
 author: 'Bauke Westendorp'
 tags: ['new website', 'new', 'website']
 summary: >-
-  We have a brand new website!
+  We have a brand new website! Lorem consequat aute exercitation dolor excepteur. Enim enim eu dolore exercitation officia exercitation consectetur consectetur in reprehenderit irure et commodo nisi. Excepteur amet in aliquip culpa non amet. In aliqua velit tempor minim enim quis.
 thumbnail: '/res/posts/2019-10-22-new-website/Reveal_Doe_Museum_Veendam-29.jpg'
 ---
 

@@ -3,8 +3,8 @@ title: 'On Our Way To Mexico'
 author: 'Bauke Westendorp'
 tags: ['mexico', 'on our way', 'fgc']
 summary: >-
-  We're finally starting our FGC adventure!
-thumbnail:
+  We're finally starting our FGC adventure! Lorem consequat aute exercitation dolor excepteur. Enim enim eu dolore exercitation officia exercitation consectetur consectetur in reprehenderit irure et commodo nisi. Excepteur amet in aliquip culpa non amet. In aliqua velit tempor minim enim quis.
+thumbnail: '/res/posts/2019-10-22-on-our-way-to-mexico/20180813_155854.jpg'
 ---
 
 ![airport-image-1]

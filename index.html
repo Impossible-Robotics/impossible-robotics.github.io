@@ -1,18 +1,21 @@
 ---
 layout: base
-title: Home
+title: 'Home'
 ---
 
 <div class="home-content">
   <div class="home-posts">
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts limit:3 %}
     <div class="home-post container">
       <h1 class="underlined-title">{{ post.title }}</h1>
       <div class="home-post-content">
         {{ post.content }}
       </div>
+
+
       <div class="home-post-info">
         <p>{{ post.author }}, {{ post.date | date_to_long_string }}</p>
+        <a href="{{ post.url }}" class="button home-post-button">More</a>
       </div>
     </div>
     {% endfor %}
@@ -40,7 +43,9 @@ title: Home
         <img src="{{ featured-post.thumbnail }}">
         {% endif %}
       </a>
-      <a href="{{ featured-post.url }}" class="button">Read More</a>
+      <div class="home-featured-button">
+        <a href="{{ featured-post.url }}" class="button">Read More</a>
+      </div>
     </div>
 
     <div class="home-sponsors container home-sidebar-element">
@@ -50,6 +55,10 @@ title: Home
           alt="Victron Energy"></a>
       <a href="https://www.hanze.nl/eng"><img src="/res/logos/sponsors/hanze.png" alt="Hanzehogeschool"></a>
       <a href="https://www.nhlstenden.com/en"><img src="/res/logos/sponsors/nhl.png" alt="NHL"></a>
+
+      <div class="home-sponsor-button">
+        <a href="/sponsors/" class="button home-sponsor-button">See all</a>
+      </div>
     </div>
   </div>
 </div>

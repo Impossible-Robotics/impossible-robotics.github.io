@@ -14,23 +14,26 @@
 
 .home-post-content {
   padding-top: 20px;
+  margin-bottom: 20px;
 }
 
 .home-post-content img {
   width: 100%;
-  margin: 20px 0;
 
   border-radius: 20px;
 }
 .home-post-content p {
   font-size: 14pt;
+  margin-bottom: 20px;
 }
 
 .home-post-info {
-  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .home-post-info p {
+  margin: auto 0;
   color: var(--main-text-light);
 }
 
@@ -49,7 +52,7 @@
 }
 
 .home-sidebar-element {
-  margin-bottom: 5%;
+  margin-bottom: 5vw;
 }
 
 .home-sidebar-element:last-child {
@@ -79,6 +82,16 @@
   margin-top: 10%;
 }
 
+.home-sponsor-button {
+  display: flex;
+  justify-content: center;
+}
+
+.home-featured-button {
+  display: flex;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 450px) {
   .home-posts {
     margin: 0;
@@ -95,7 +108,7 @@
   }
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1150px) {
   .home-sidebar {
     display: none;
   }
