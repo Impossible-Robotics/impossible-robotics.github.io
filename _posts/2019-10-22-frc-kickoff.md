@@ -4,7 +4,7 @@ author: 'Bauke Westendorp'
 tags: ['frc', 'kickoff', 'frc kickoff', 'new season']
 summary: >-
   The new FRC season has started
-featured-image:
+thumbnail:
 ---
 
 ![team-image]

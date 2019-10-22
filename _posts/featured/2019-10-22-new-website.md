@@ -4,7 +4,7 @@ author: 'Bauke Westendorp'
 tags: ['new website', 'new', 'website']
 summary: >-
   We have a brand new website!
-featured-image: 'res/posts/2019-10-22-new-website/Reveal_Doe_Museum_Veendam-29.jpg'
+thumbnail: '/res/posts/2019-10-22-new-website/Reveal_Doe_Museum_Veendam-29.jpg'
 ---
 
 Welcome to our new website! We decided that our old website wasn’t good enough anymore, so we build a completely new website from scratch. Here you can find lot’s of information about our team. In the future we will add more pages and continue to update the website. We hope you like it so far.

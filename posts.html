@@ -2,3 +2,19 @@
 layout: base
 title: Posts
 ---
+
+{% for post in site.posts %}
+<div class="container">
+    <h1 class="underlined-title">{{ post.title }}</h1>
+    <div class="post-list-item-content">
+        <div>
+            <p>{{ post.summary }}</p>
+        </div>
+        <div class="thumbnail-holder">
+            {% if post.thumbnail != nil %}
+            <img src="{{ post.thumbnail }}">
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endfor %}

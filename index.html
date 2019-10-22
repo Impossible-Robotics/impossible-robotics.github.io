@@ -27,17 +27,17 @@ title: Home
       <h1 class="featured-post-label underlined-title">Featured Post</h1>
 
       {% for post in site.posts %}
-        {% if post.path contains "featured" %}
-          {% assign featured-post = post %}
-        {% endif %}
+      {% if post.path contains "featured" %}
+      {% assign featured-post = post %}
+      {% endif %}
       {% endfor %}
 
       <a href="{{ featured-post.url }}">
         <h1 class="featured-post-title">{{ featured-post.title }}</h1>
         <p class="featured-post-summary">{{ featured-post.summary }}</p>
-        
-        {% if featured-post.featured-image != nil %}
-          <img src="{{ featured-post.featured-image }}" alt="Featured Post Image">
+
+        {% if featured-post.thumbnail != nil %}
+        <img src="{{ featured-post.thumbnail }}">
         {% endif %}
       </a>
       <a href="{{ featured-post.url }}" class="button">Read More</a>
@@ -46,7 +46,8 @@ title: Home
     <div class="home-sponsors container home-sidebar-element">
       <h1 class="featured-post-label underlined-title">Powered By</h1>
 
-      <a href="https://www.victronenergy.com/"><img src="/res/logos/sponsors/victron_energy.png" alt="Victron Energy"></a>
+      <a href="https://www.victronenergy.com/"><img src="/res/logos/sponsors/victron_energy.png"
+          alt="Victron Energy"></a>
       <a href="https://www.hanze.nl/eng"><img src="/res/logos/sponsors/hanze.png" alt="Hanzehogeschool"></a>
       <a href="https://www.nhlstenden.com/en"><img src="/res/logos/sponsors/nhl.png" alt="NHL"></a>
     </div>

@@ -4,7 +4,7 @@ author: 'Bauke Westendorp'
 tags: ['competition', 'last days', 'fgc']
 summary: >-
   The FGC competitions have almost ended :(
-featured-image:
+thumbnail:
 ---
 
 ![team-image-1]

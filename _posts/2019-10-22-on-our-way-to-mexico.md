@@ -4,7 +4,7 @@ author: 'Bauke Westendorp'
 tags: ['mexico', 'on our way', 'fgc']
 summary: >-
   We're finally starting our FGC adventure!
-featured-image:
+thumbnail:
 ---
 
 ![airport-image-1]

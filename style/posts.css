@@ -1,0 +1,15 @@
+.post-list-item-content {
+    display: flex;
+    justify-content: space-between;
+
+    min-height: 15vh;
+}
+
+.post-list-item-content .thumbnail-holder {
+    width: 30%;
+}
+
+.post-list-item-content img {
+    border-radius: 20px;
+    max-width: 100%;
+}
