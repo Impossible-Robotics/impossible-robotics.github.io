@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Home
+title: 'Home'
 ---
 
 <div class="home-content">
@@ -40,7 +40,9 @@ title: Home
         <img src="{{ featured-post.thumbnail }}">
         {% endif %}
       </a>
-      <a href="{{ featured-post.url }}" class="button">Read More</a>
+      <div class="home-featured-button">
+          <a href="{{ featured-post.url }}" class="button">Read More</a>
+      </div>
     </div>
 
     <div class="home-sponsors container home-sidebar-element">
@@ -50,6 +52,10 @@ title: Home
           alt="Victron Energy"></a>
       <a href="https://www.hanze.nl/eng"><img src="/res/logos/sponsors/hanze.png" alt="Hanzehogeschool"></a>
       <a href="https://www.nhlstenden.com/en"><img src="/res/logos/sponsors/nhl.png" alt="NHL"></a>
+
+      <div class="home-sponsor-button">
+          <a href="/sponsors/" class="button home-sponsor-button">See all</a>
+      </div>
     </div>
   </div>
 </div>

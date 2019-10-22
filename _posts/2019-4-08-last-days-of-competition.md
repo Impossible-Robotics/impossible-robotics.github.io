@@ -3,8 +3,8 @@ title: 'The Last Days of Competition'
 author: 'Bauke Westendorp'
 tags: ['competition', 'last days', 'fgc']
 summary: >-
-  The FGC competitions have almost ended :(
-thumbnail:
+  The FGC competitions have almost ended :( Lorem consequat aute exercitation dolor excepteur. Enim enim eu dolore exercitation officia exercitation consectetur consectetur in reprehenderit irure et commodo nisi. Excepteur amet in aliquip culpa non amet. In aliqua velit tempor minim enim quis.
+thumbnail: '/res/posts/2019-10-22-last-days-of-competition/20180817_123322.jpg'
 ---
 
 ![team-image-1]

@@ -3,8 +3,8 @@ title: 'FRC Kickoff'
 author: 'Bauke Westendorp'
 tags: ['frc', 'kickoff', 'frc kickoff', 'new season']
 summary: >-
-  The new FRC season has started
-thumbnail:
+  The new FRC season has started! Lorem consequat aute exercitation dolor excepteur. Enim enim eu dolore exercitation officia exercitation consectetur consectetur in reprehenderit irure et commodo nisi. Excepteur amet in aliquip culpa non amet. In aliqua velit tempor minim enim quis.
+thumbnail: '/res/posts/2019-10-22-frc-kickoff/t1.jpg'
 ---
 
 ![team-image]
