@@ -1,71 +1,89 @@
 .header {
-	background-color: var(--main-light);
+    background-color: var(--main-light);
+    height: 120px;
+    box-shadow: 0 0 20px var(--main-shadow);
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
 
-	padding: 0 10%;
-	display: flex;
-	justify-content: space-between;
-	height: 120px;
-
-	box-shadow: 0 0 20px rgb(184, 184, 184);
+.header-content {
+    margin: 0 10%;
 }
 
 .page-list {
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .page-list a:last-child {
-	margin-right: 0;
+    margin-right: 0;
 }
 
 .page-list a {
-	font-size: 14pt;
-	margin: auto 0;
-	margin-right: 30px;
-
-	text-transform: uppercase;
+    font-size: 14pt;
+    margin: auto 0;
+    margin-right: 30px;
+    text-transform: uppercase;
 }
 
 .header .title {
-	font-size: 20pt;
-	font-weight: bold;
-	margin: auto 0;
+    font-size: 20pt;
+    font-weight: bold;
+    margin: auto 0;
 }
 
 .navbar-active {
-	font-weight: bold;
+    font-weight: bold;
+}
+
+.header-right {
+    display: flex;
+}
+
+.toggle-theme-button {
+    font-size: 30px;
+    color: var(--main-text);
+    margin: auto 0 auto 30px;
+}
+
+@media (prefers-color-scheme: light) {
+    .toggle-theme-button .fa-moon {
+        display: none;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .toggle-theme-button .fa-sun {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 750px) {
-	.header {
-		flex-direction: column;
-	}
-
-	.header .title {
-		margin: auto auto;
-	}
-
-	.page-list {
-		justify-content: center;
-		margin-bottom: 15px;
-	}
+    .header {
+        flex-direction: column;
+    }
+    .header .title {
+        margin: auto auto;
+    }
+    .page-list {
+        justify-content: center;
+        margin-bottom: 15px;
+    }
 }
 
 @media only screen and (max-width: 450px) {
-	.header .title {
-		display: none;
-	}
-
-	.page-list {
-		margin: auto auto;
-		flex-wrap: wrap;
-	}
-
-	.page-list a {
-		margin: 5px 15px;
-	}
-
-	.page-list a:last-child {
-		margin: 5px 15px;
-	}
+    .header .title {
+        display: none;
+    }
+    .page-list {
+        margin: auto auto;
+        flex-wrap: wrap;
+    }
+    .page-list a {
+        margin: 5px 15px;
+    }
+    .page-list a:last-child {
+        margin: 5px 15px;
+    }
 }

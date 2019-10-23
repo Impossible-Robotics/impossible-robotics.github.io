@@ -1,88 +1,136 @@
 :root {
-	--main-accent: rgb(211, 75, 36);
-	--main-accent-light: rgb(247, 100, 59);
-	--main-light: rgb(240, 240, 240);
-	--main-medium: rgb(224, 224, 224);
-	--main-dark: rgb(172, 172, 172);
-	--main-text: rgb(0, 0, 0);
-	--main-text-light: rgb(94, 94, 94);
+    /* Site Colors */
+    --main-accent: rgb(211, 75, 36);
+    --main-accent-light: rgb(247, 100, 59);
+    --main-light: var(--theme-light-light);
+    --main-medium: var(--theme-light-medium);
+    --main-dark: var(--theme-light-dark);
+    --main-text: var(--theme-light-text);
+    --main-text-saturated: var(--theme-light-text-saturated);
+    --main-text-opposite: var(--theme-light-text-opposite);
+    --main-shadow: var(--theme-light-shadow);
+    /* Dark Theme */
+    --theme-dark-light: rgb(18, 18, 18);
+    --theme-dark-medium: rgb(10, 10, 10);
+    --theme-dark-dark: rgb(58, 58, 58);
+    --theme-dark-text: rgb(221, 221, 221);
+    --theme-dark-text-saturated: rgb(255, 255, 255);
+    --theme-dark-text-opposite: rgb(22, 22, 22);
+    --theme-dark-shadow: rgb(0, 0, 0);
+    --theme-dark-text-opposite: rgb(22, 22, 22);
+    /* Light Theme */
+    --theme-light-light: rgb(240, 240, 240);
+    --theme-light-medium: rgb(224, 224, 224);
+    --theme-light-dark: rgb(172, 172, 172);
+    --theme-light-text: rgb(0, 0, 0);
+    --theme-light-text-saturated: rgb(94, 94, 94);
+    --theme-light-shadow: rgb(184, 184, 184);
+}
+
+@media (prefers-color-scheme: dark) {
+     :root {
+        --main-light: var(--theme-dark-light);
+        --main-medium: var(--theme-dark-medium);
+        --main-dark: var(--theme-dark-dark);
+        --main-text: var(--theme-dark-text);
+        --main-text-saturated: var(--theme-dark-text-saturated);
+        --main-text-opposite: var(--theme-dark-text-opposite);
+        --main-shadow: var(--theme-dark-shadow);
+    }
 }
 
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-p, h1, h2, h3, h4, h5, h6, a {
-	font-family: Arial, Helvetica, sans-serif;
-	color: var(--main-text);
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--main-text);
 }
 
 a {
-	text-decoration: none;
-	color: var(--main-accent);
-	transition: 0.2s;
+    text-decoration: none;
+    color: var(--main-accent);
+    transition: 0.2s;
 }
 
 a:hover {
-	color: var(--main-accent-light);
-	transform: scale(0.97);
+    color: var(--main-accent-light);
+    transform: scale(0.97);
 }
 
 html {
-	background-color: var(--main-medium);
+    background-color: var(--main-medium);
 }
 
 .button {
-	background-color: var(--main-accent);
-	color: var(--main-light);
-	border-radius: 20px;
-	padding: 10px 15px;
-	box-shadow: 0 0 20px rgb(184, 184, 184);
+    background-color: var(--main-accent);
+    color: var(--main-text-opposite);
+    border-radius: 20px;
+    padding: 10px 15px;
+    box-shadow: 0 0 20px var(--main-shadow);
+}
+
+.icon-button {
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.icon-button img {
+    width: 100%;
+    height: 100%;
 }
 
 .button:hover {
-	background-color: var(--main-accent-light);
-	color: var(--main-light);
+    background-color: var(--main-accent-light);
+    color: var(--main-light);
 }
 
 .container {
-	background-color: var(--main-light);
-	padding: 30px;
-	border-radius: 20px;
-	box-shadow: 0 0 20px rgb(184, 184, 184);
+    background-color: var(--main-light);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px var(--main-shadow);
 }
 
 .underlined-title {
-	border-bottom-style: solid;
-	border-bottom-color: var(--main-accent);
-	padding-bottom: 10px;
-	font-size: 20pt;
+    border-bottom-style: solid;
+    border-bottom-color: var(--main-accent);
+    padding-bottom: 10px;
+    font-size: 20pt;
 }
 
 .text-in-line {
-	text-align: center;
-	border-bottom: 2px solid var(--main-dark);
-	line-height: 0.1em;
-	margin: 10px 0 10px;
+    text-align: center;
+    border-bottom: 2px solid var(--main-dark);
+    line-height: 0.1em;
+    margin: 10px 0 10px;
 }
 
 .text-in-line span {
-	background: var(--main-medium);
-	color: var(--main-dark);
-	padding:0 15px;
+    background: var(--main-medium);
+    color: var(--main-dark);
+    padding: 0 15px;
 }
 
 .page-content {
-	margin: 5% 10%;
+    margin: 5% 10%;
 }
 
 @media only screen and (max-width: 450px) {
-	.page-content {
-		margin: 5% 0;
-	}
-
-	.container {
-		border-radius: 0;
-	}
+    .page-content {
+        margin: 5% 0;
+    }
+    .container {
+        border-radius: 0;
+    }
 }
