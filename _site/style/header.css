@@ -42,7 +42,7 @@
 }
 
 .toggle-theme-button {
-    font-size: 30px;
+    font-size: 15px;
     color: var(--main-text);
     margin: auto 0 auto 30px;
 }
