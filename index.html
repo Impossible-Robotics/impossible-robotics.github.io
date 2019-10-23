@@ -4,69 +4,70 @@ title: 'Home'
 ---
 
 <head>
-  <link rel="stylesheet" type="text/css" href="/style/home.css">
+	<link rel="stylesheet" type="text/css" href="/style/home.css">
 </head>
 
 <div class="page-content home-content">
-  <div class="home-posts">
-    {% for post in site.posts limit:3 %}
-    <div class="home-post container">
-      <h1 class="underlined-title">{{ post.title }}</h1>
-      <div class="home-post-content">
-        {{ post.content }}
-      </div>
+	<div>
+		{% for post in site.posts limit:3 %}
+		<div class="home-post container">
+			<h1 class="underlined-title">{{ post.title }}</h1>
+			<div class="home-post-content">
+				{{ post.content }}
+			</div>
 
 
-      <div class="home-post-info">
-        <p>{{ post.author }}, {{ post.date | date_to_long_string }}</p>
-        <a href="{{ post.url }}" class="button home-post-button">More</a>
-      </div>
-    </div>
-    {% endfor %}
+			<div class="home-post-info">
+				<p>{{ post.author }}, {{ post.date | date_to_long_string }}</p>
+				<a href="{{ post.url }}" class="button home-post-button">More</a>
+			</div>
+		</div>
+		{% endfor %}
 
-    <div class="home-more-posts">
-      <a href="/posts/" class="button">More Posts</a>
-    </div>
-  </div>
+		<div class="home-more-posts">
+			<a href="/posts/" class="button">More Posts</a>
+		</div>
+	</div>
 
-  <div class="home-sidebar">
-    <div class="home-featured-post container home-sidebar-element">
-      <h1 class="featured-post-label underlined-title">Featured Post</h1>
+	<div class="home-sidebar">
+		<div class="home-featured-post container home-sidebar-element">
+			<h1 class="featured-post-label underlined-title">Featured Post</h1>
 
-      {% for post in site.posts %}
-      {% if post.path contains "featured" %}
-      {% assign featured-post = post %}
-      {% endif %}
-      {% endfor %}
+			{% for post in site.posts %}
+			{% if post.path contains "featured" %}
+			{% assign featured-post = post %}
+			{% endif %}
+			{% endfor %}
 
-      <a href="{{ featured-post.url }}">
-        <h1 class="featured-post-title">{{ featured-post.title }}</h1>
-        <p class="featured-post-summary">{{ featured-post.summary }}</p>
+			<a href="{{ featured-post.url }}">
+				<h1 class="featured-post-title">{{ featured-post.title }}</h1>
+				<p class="featured-post-summary">{{ featured-post.summary }}</p>
 
-        {% if featured-post.thumbnail != nil %}
-        <img src="{{ featured-post.thumbnail }}">
-        {% endif %}
-      </a>
-      <div class="home-featured-button">
-        <a href="{{ featured-post.url }}" class="button">Read More</a>
-      </div>
-    </div>
+				{% if featured-post.thumbnail != nil %}
+				<img src="{{ featured-post.thumbnail }}">
+				{% endif %}
+			</a>
+			<div class="home-featured-button">
+				<a href="{{ featured-post.url }}" class="button">Read More</a>
+			</div>
+		</div>
 
-    <div class="home-sponsors container home-sidebar-element">
-      <h1 class="featured-post-label underlined-title">Powered By</h1>
+		<div class="home-sponsors container home-sidebar-element">
+			<h1 class="featured-post-label underlined-title">Powered By</h1>
 
-      {% for sponsor in site.data.sponsors %}
-        {% if sponsor.is-main %}
-          {% if sponsor.url != nil %}
-            <a href="{{ sponsor.url }}"><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"></a>
-          {% else %}
-            <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-      <div class="home-sponsor-button">
-        <a href="/sponsors/" class="button home-sponsor-button">See all</a>
-      </div>
-    </div>
-  </div>
+			{% for sponsor in site.data.sponsors %}
+			{% if sponsor.is-main %}
+			{% if sponsor.url != nil %}
+			<a href="{{ sponsor.url }}"><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"></a>
+			{% else %}
+			<img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
+			{% endif %}
+			{% endif %}
+			{% endfor %}
+
+			<div class="home-sponsor-button">
+				<a href="/sponsors/" class="button home-sponsor-button">See all</a>
+			</div>
+		</div>
+	</div>
 </div>

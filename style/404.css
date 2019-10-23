@@ -1,0 +1,15 @@
+.message-404 {
+    margin-top: 30vh;
+}
+
+.message-404 > * {
+    text-align: center;
+}
+
+.message-404 h1 {
+    font-size: 7vw;
+}
+
+.message-404 p {
+    font-size: 2vw;
+}
