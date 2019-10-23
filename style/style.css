@@ -126,6 +126,10 @@ html {
     margin: 5% 10%;
 }
 
+.hidden {
+    display: none;
+}
+
 @media only screen and (max-width: 450px) {
     .page-content {
         margin: 5% 0;

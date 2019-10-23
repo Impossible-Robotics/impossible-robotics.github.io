@@ -47,18 +47,6 @@
     margin: auto 0 auto 30px;
 }
 
-@media (prefers-color-scheme: light) {
-    .toggle-theme-button .fa-moon {
-        display: none;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    .toggle-theme-button .fa-sun {
-        display: none;
-    }
-}
-
 @media only screen and (max-width: 750px) {
     .header {
         flex-direction: column;
