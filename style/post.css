@@ -1,6 +1,3 @@
-.post-content {
-  margin: 5%;
-}
 .post-content h1 {
 	border-bottom-style: solid;
 	border-bottom-color: var(--main-accent);
@@ -26,14 +23,4 @@
 .post-content img {
   width: 100%;
   border-radius: 20px;
-}
-
-@media only screen and (max-width: 450px) {
-  .post-content {
-    margin: 5% 0;
-  }
-
-  .post-content {
-    border-radius: 0;
-  }
 }

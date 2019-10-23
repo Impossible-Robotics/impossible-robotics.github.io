@@ -3,6 +3,10 @@ layout: base
 title: 'Posts'
 ---
 
+<head>
+    <link rel="stylesheet" type="text/css" href="/style/posts.css">
+</head>
+
 <div class="post-list">
     {% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%b %Y'"  %}
 

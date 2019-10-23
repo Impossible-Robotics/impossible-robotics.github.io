@@ -1,9 +1,5 @@
 .home-content {
   display: flex;
-}
-
-.home-posts {
-  margin: 5%;
   margin-bottom: 0;
 }
 
@@ -17,14 +13,16 @@
   margin-bottom: 20px;
 }
 
+.home-post-content > * {
+  margin-bottom: 20px;
+}
+
 .home-post-content img {
   width: 100%;
-
   border-radius: 20px;
 }
 .home-post-content p {
   font-size: 14pt;
-  margin-bottom: 20px;
 }
 
 .home-post-info {
@@ -47,8 +45,7 @@
 .home-sidebar {
  min-width: 20%;
  max-width: 20%;
- margin: 5%;
- margin-left: 0;
+ margin-left: 5%;
 }
 
 .home-sidebar-element {
@@ -93,12 +90,10 @@
 }
 
 @media only screen and (max-width: 450px) {
-  .home-posts {
-    margin: 0;
+  .home-content {
+    margin-top: 0;
   }
-
   .home-post {
-    border-radius: 0;
     margin-bottom: 0;
     margin-top: 5%;
   }

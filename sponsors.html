@@ -3,28 +3,47 @@ layout: base
 title: 'Sponsors'
 ---
 
-<h1>Thanks to all of our sponsors!</h1>
-<p>
-  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam fugit quo officia vel totam repellat in modi. Quis
-  vitae labore illo nulla exercitationem atque ratione? Dolores accusantium optio facilis nesciunt.
-</p>
+<head>
+  <link rel="stylesheet" type="text/css" href="/style/sponsors.css">
+</head>
 
-<div class="main-sponsors container">
-  <h1>Main Sponsors</h1>
+<div class="page-content">
+  <h1 class="underlined-title sponsor-thank-title">Thanks to all of our sponsors!</h1>
+  <p class="sponsor-thank-text">
+    We’re really thankful to our sponsor and we could not have reached our goals without them! Our sponsors help us from financial support all the way to cutting parts for the robot, from letting us use their 3D printers to allowing us to build in their workshop and much more!
+  </p>
 
-  {% for sponsor in site.sponsors %}
-  {% if sponsor.is-main %}
-  <p>{{ sponsor.name }}</p>
-  {% endif %}
-  {% endfor %}
-</div>
-
-<div class="sponsors container">
-  <h1>Sponsors</h1>
-
-  {% for sponsor in site.sponsors %}
-  {% if sponsor.is-main == false %}
-  <p>{{ sponsor.name }}</p>
-  {% endif %}
-  {% endfor %}
+  <div class="sponsor-containers">
+    <div class="container">
+      <h1 class="underlined-title sponsor-container-title">Main Sponsors</h1>
+  
+      <div class="sponsor-grid">
+        {% for sponsor in site.data.sponsors %}
+          {% if sponsor.is-main %}
+            {% if sponsor.url != nil %}
+              <a href="{{ sponsor.url }}"><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"></a>
+            {% else %}
+              <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  
+    <div class="container">
+      <h1 class="underlined-title sponsor-container-title">Sponsors</h1>
+  
+      <div class="sponsor-grid">
+        {% for sponsor in site.data.sponsors %}
+          {% if sponsor.is-main == false %}
+            {% if sponsor.url != nil %}
+              <a href="{{ sponsor.url }}"><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"></a>
+            {% else %}
+              <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 </div>

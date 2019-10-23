@@ -12,6 +12,7 @@ thumbnail: '/res/posts/2019-10-22-on-our-way-to-mexico/20180813_155854.jpg'
 With this year’s FIRST Global Challenge starting in just two days we went on our way early in the morning to catch our flight to Mexico city.
 
 ![crate]
+
 ![luggage]
 
 Sadly, our flight had to be canceled because of technical issues. We ended up spending most of the day waiting at the airport before being able to go to a hotel and get some sleep.

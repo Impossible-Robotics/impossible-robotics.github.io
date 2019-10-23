@@ -72,3 +72,17 @@ html {
 	color: var(--main-dark);
 	padding:0 15px;
 }
+
+.page-content {
+	margin: 5% 10%;
+}
+
+@media only screen and (max-width: 450px) {
+	.page-content {
+		margin: 5% 0;
+	}
+
+	.container {
+		border-radius: 0;
+	}
+}
