@@ -9,6 +9,12 @@ function setTheme(theme) {
     document.documentElement.style.setProperty('--main-text-opposite', 'var(--theme-' + theme + '-text-opposite)');
     document.documentElement.style.setProperty('--main-shadow', 'var(--theme-' + theme + '-shadow)');
 
+    if (theme == 'dark') {
+        document.getElementById('toggle-scheme-icon').classList.replace('fa-moon', 'fa-sun');
+    } else {
+        document.getElementById('toggle-scheme-icon').classList.replace('fa-sun', 'fa-moon');
+    }
+
     sessionStorage.setItem('color_theme', theme);
 }
 
@@ -17,7 +23,7 @@ function toggleTheme() {
 
     if (currentTheme == 'dark') {
         setTheme('light');
-    } else if (currentTheme == 'light') {
+    } else {
         setTheme('dark');
     }
 }
