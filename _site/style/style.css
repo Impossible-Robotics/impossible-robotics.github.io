@@ -2,40 +2,41 @@
     /* Site Colors */
     --main-accent: rgb(211, 75, 36);
     --main-accent-light: rgb(247, 100, 59);
-    --main-light: var(--theme-light-light);
-    --main-medium: var(--theme-light-medium);
-    --main-dark: var(--theme-light-dark);
-    --main-text: var(--theme-light-text);
-    --main-text-saturated: var(--theme-light-text-saturated);
-    --main-text-opposite: var(--theme-light-text-opposite);
-    --main-shadow: var(--theme-light-shadow);
-    /* Dark Theme */
-    --theme-dark-light: rgb(18, 18, 18);
-    --theme-dark-medium: rgb(10, 10, 10);
-    --theme-dark-dark: rgb(58, 58, 58);
-    --theme-dark-text: rgb(221, 221, 221);
-    --theme-dark-text-saturated: rgb(255, 255, 255);
-    --theme-dark-text-opposite: rgb(22, 22, 22);
-    --theme-dark-shadow: rgb(0, 0, 0);
-    --theme-dark-text-opposite: rgb(22, 22, 22);
-    /* Light Theme */
-    --theme-light-light: rgb(240, 240, 240);
-    --theme-light-medium: rgb(224, 224, 224);
-    --theme-light-dark: rgb(172, 172, 172);
-    --theme-light-text: rgb(0, 0, 0);
-    --theme-light-text-saturated: rgb(94, 94, 94);
-    --theme-light-shadow: rgb(184, 184, 184);
+    --main-light: var(--scheme-light-light);
+    --main-text-white: var(--scheme-light-light);
+    --main-medium: var(--scheme-light-medium);
+    --main-dark: var(--scheme-light-dark);
+    --main-text: var(--scheme-light-text);
+    --main-text-saturated: var(--scheme-light-text-saturated);
+    --main-text-opposite: var(--scheme-light-text-opposite);
+    --main-shadow: var(--scheme-light-shadow);
+    /* Dark scheme */
+    --scheme-dark-light: rgb(18, 18, 18);
+    --scheme-dark-medium: rgb(10, 10, 10);
+    --scheme-dark-dark: rgb(58, 58, 58);
+    --scheme-dark-text: rgb(221, 221, 221);
+    --scheme-dark-text-saturated: rgb(255, 255, 255);
+    --scheme-dark-text-opposite: rgb(22, 22, 22);
+    --scheme-dark-shadow: rgb(0, 0, 0);
+    --scheme-dark-text-opposite: rgb(22, 22, 22);
+    /* Light scheme */
+    --scheme-light-light: rgb(240, 240, 240);
+    --scheme-light-medium: rgb(224, 224, 224);
+    --scheme-light-dark: rgb(172, 172, 172);
+    --scheme-light-text: rgb(0, 0, 0);
+    --scheme-light-text-saturated: rgb(94, 94, 94);
+    --scheme-light-shadow: rgb(184, 184, 184);
 }
 
 @media (prefers-color-scheme: dark) {
      :root {
-        --main-light: var(--theme-dark-light);
-        --main-medium: var(--theme-dark-medium);
-        --main-dark: var(--theme-dark-dark);
-        --main-text: var(--theme-dark-text);
-        --main-text-saturated: var(--theme-dark-text-saturated);
-        --main-text-opposite: var(--theme-dark-text-opposite);
-        --main-shadow: var(--theme-dark-shadow);
+        --main-light: var(--scheme-dark-light);
+        --main-medium: var(--scheme-dark-medium);
+        --main-dark: var(--scheme-dark-dark);
+        --main-text: var(--scheme-dark-text);
+        --main-text-saturated: var(--scheme-dark-text-saturated);
+        --main-text-opposite: var(--scheme-dark-text-opposite);
+        --main-shadow: var(--scheme-dark-shadow);
     }
 }
 
@@ -71,12 +72,21 @@ html {
     background-color: var(--main-medium);
 }
 
+*:focus {
+    outline: none;
+}
+
 .button {
     background-color: var(--main-accent);
-    color: var(--main-text-opposite);
+    color: var(--main-text-white);
     border-radius: 20px;
     padding: 10px 15px;
     box-shadow: 0 0 20px var(--main-shadow);
+}
+
+.button:hover {
+    background-color: var(--main-accent-light);
+    color: var(--main-text-white);
 }
 
 .icon-button {
@@ -85,14 +95,14 @@ html {
     background: none;
 }
 
-.icon-button img {
-    width: 100%;
-    height: 100%;
+.icon {
+    color: var(--main-accent);
+    transition: 0.2s;
 }
 
-.button:hover {
-    background-color: var(--main-accent-light);
-    color: var(--main-light);
+.icon:hover {
+    transform: scale(0.97);
+    color: var(--main-accent-light);
 }
 
 .container {

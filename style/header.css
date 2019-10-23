@@ -7,13 +7,9 @@
     justify-content: space-between;
 }
 
-.header-content {
-    margin: 0 10%;
-}
-
 .page-list {
     display: flex;
-    justify-content: space-between;
+    margin: 0;
 }
 
 .page-list a:last-child {
@@ -35,16 +31,6 @@
 
 .navbar-active {
     font-weight: bold;
-}
-
-.header-right {
-    display: flex;
-}
-
-.toggle-theme-button {
-    font-size: 30px;
-    color: var(--main-text);
-    margin: auto 0 auto 30px;
 }
 
 @media only screen and (max-width: 750px) {

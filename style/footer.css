@@ -1,0 +1,17 @@
+.footer {
+  background-color: var(--main-light);
+  height: 120px;
+  box-shadow: 0 0 20px var(--main-shadow);
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .site-name {
+  margin: auto 0;
+}
+
+.toggle-scheme-button {
+  font-size: 14pt;
+  margin: auto 0 auto 30px;
+}
