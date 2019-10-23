@@ -1,4 +1,12 @@
 ---
+title: 'FRC Kickoff'
+author: 'Bauke Westendorp'
+tags: ['frc', 'kickoff', 'frc kickoff', 'new season']
+summary: >-
+  The new FRC season has started! Lorem consequat aute exercitation dolor excepteur. Enim enim eu dolore exercitation officia exercitation consectetur consectetur in reprehenderit irure et commodo nisi. Excepteur amet in aliquip culpa non amet. In aliqua velit tempor minim enim quis.
+thumbnail: '/res/posts/2019-10-22-frc-kickoff/t1.jpg'
+---
+
 title: 'New Website'
 author: 'Bauke Westendorp'
 tags: ['new website', 'new', 'website']
@@ -22,3 +30,6 @@ FIRST is an American organisation that took upon itself the task to promote tech
 [team-info]: http://www.impossible-robotics.com/about-us/
 [goals]: http://www.impossible-robotics.com/dev/our-vision/
 [first-info]: http://www.impossible-robotics.com/dev/what-are-first-frc/
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTgxMzk4Njc5MV19
+-->
