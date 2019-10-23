@@ -1,26 +1,23 @@
-title: 'New Website'
-author: 'Bauke Westendorp'
-tags: ['new website', 'new', 'website']
+---
+title: ''
+author: ''
+tags: ['tag1', 'tag2']
 summary: >-
-  We have a brand new website! Lorem consequat aute exercitation dolor excepteur. Enim enim eu dolore exercitation officia exercitation consectetur consectetur in reprehenderit irure et commodo nisi. Excepteur amet in aliquip culpa non amet. In aliqua velit tempor minim enim quis.
-thumbnail: '/res/posts/2019-10-22-new-website/Reveal_Doe_Museum_Veendam-29.jpg'
+  SUMMARY OF THE POST
+thumbnail: /res/posts/2019-10-22-frc-kickoff/t1.jpg'
 ---
 
-Welcome to our new website! We decided that our old website wasn’t good enough anymore, so we build a completely new website from scratch. Here you can find lot’s of information about our team. In the future we will add more pages and continue to update the website. We hope you like it so far.
+# Hey! This is a test post!
+Doloremum fugit impedit placeat. Dolores ad recusandae occaecati atque. Harum culpa nostrum incidunt molestiae sit voluptatibus velit ex. Sed et non necessitatibus est sequi. Fugiat exercitationem sed rerum consectetur reprehenderit nulla.
 
-![team-image]
+![test-image]
 
-Impossible Robotics is a non-profit organisation that participates in the FIRST Robotics Competition. We also participate in numerous other events. Our team (team 5412) is composed of High School and College students and is mainly located in the North of the Netherlands. For more information about our team click [here][team-info].
+adhjkasd
+sadhjasd
+asdhjkasdhjkasdhjkasdhasd
+asdjhaskdhaksjd
 
-Our team aims to inspire and enthuse everyone for technology, from kids, to teenagers and adults. We also try to forge a link between schools and employers.  Besides that we want to promote STEM around the world. For more information about our goals and vision click [here][goals].
-
-FIRST is an American organisation that took upon itself the task to promote technology worldwide. To achieve this goal, First, among other things, organises multiple competitions, including the FIRST Robotics Competition. For more information about FIRST or the FRC click [here][first-info].
-
-[team-image]: /res/posts/2019-10-22-new-website/Reveal_Doe_Museum_Veendam-29.jpg
-
-[team-info]: http://www.impossible-robotics.com/about-us/
-[goals]: http://www.impossible-robotics.com/dev/our-vision/
-[first-info]: http://www.impossible-robotics.com/dev/what-are-first-frc/
+[test-image]: https://images.unsplash.com/photo-1571858541981-dd6334e6b89d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDk3MjM4MzgsLTgxMzk4Njc5MV19
+eyJoaXN0b3J5IjpbLTE0NzYzMjI0MzksLTgxMzk4Njc5MV19
 -->
