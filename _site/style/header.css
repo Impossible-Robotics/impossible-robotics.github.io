@@ -58,16 +58,14 @@
 
 	.page-list {
 		margin: auto auto;
-		display: flex;
 		flex-wrap: wrap;
-		justify-content: center;
 	}
 
 	.page-list a {
-		margin: 0 15px;
+		margin: 5px 15px;
 	}
 
 	.page-list a:last-child {
-		margin: 0 15px;
+		margin: 5px 15px;
 	}
 }

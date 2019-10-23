@@ -1,0 +1,39 @@
+.post-content {
+  margin: 5%;
+}
+.post-content h1 {
+	border-bottom-style: solid;
+	border-bottom-color: var(--main-accent);
+	padding-bottom: 10px;
+  font-size: 20pt;
+  margin-bottom: 15px;
+}
+
+.post-content h2 {
+  font-size: 20pt;
+  margin-bottom: 5px;
+}
+
+.post-content p {
+  font-size: 14pt;
+  margin-bottom: 1em;
+}
+
+.post-content p:last-child {
+  margin-bottom: 0;
+}
+
+.post-content img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 450px) {
+  .post-content {
+    margin: 5% 0;
+  }
+
+  .post-content {
+    border-radius: 0;
+  }
+}
