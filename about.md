@@ -25,4 +25,4 @@ If you’d like to find out more about our vision and goals, you can click [here
 [frc-info]: http://www.impossible-robotics.com/what-are-first-frc/
 [team-4481]: http://teamrembrandts.com/
 [goals-vision]: http://www.impossible-robotics.com/our-vision/
-[team-image]: /res/posts/2019-10-22-new-website/Reveal_Doe_Museum_Veendam-29.jpg
+[team-image]: /res/about/team.jpg
