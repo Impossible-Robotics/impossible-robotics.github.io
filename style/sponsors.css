@@ -10,10 +10,12 @@
 
 .sponsor-containers .container {
     margin-bottom: 5%;
+    background-color: var(--scheme-light-light);
 }
 
-.sponsor-containers .container:last-child {
-    margin-bottom: 0;
+.sponsor-containers .container {
+    margin-bottom: 5%;
+    background-color: var(--scheme-light-light);
 }
 
 .sponsor-grid {
@@ -33,6 +35,7 @@
 
 .sponsor-container-title {
     text-align: center;
+    color: var(--scheme-light-text);
 }
 
 @media only screen and (max-width: 850px) {

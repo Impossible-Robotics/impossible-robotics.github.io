@@ -88,9 +88,21 @@
   margin-top: 10%;
 }
 
+.home-sponsors {
+  background-color: var(--scheme-light-light);
+}
+
+.home-sponsors h1 {
+  color: var(--scheme-light-text);
+}
+
 .home-sponsor-button {
   display: flex;
   justify-content: center;
+}
+
+.home-sponsor-button a {
+  box-shadow: 0 0 20px var(--scheme-light-shadow);
 }
 
 .home-featured-button {
