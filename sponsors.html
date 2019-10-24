@@ -1,6 +1,9 @@
 ---
 layout: base
 title: 'Sponsors'
+summary: >- # This is used in the description of google searches. Use as many keywords as possible.
+  Impossible Robotics is the only FRC Team (5412) in the north of the Netherlands.
+  We’re really thankful to our sponsor and we could not have reached our goals without them!
 ---
 
 <div class="page-content">
@@ -12,7 +15,7 @@ title: 'Sponsors'
   <div class="sponsor-containers">
     <div class="container">
       <h1 class="underlined-title sponsor-container-title">Main Sponsors</h1>
-  
+
       <div class="sponsor-grid">
         {% for sponsor in site.data.sponsors %}
           {% if sponsor.is-main %}
@@ -25,10 +28,10 @@ title: 'Sponsors'
         {% endfor %}
       </div>
     </div>
-  
+
     <div class="container">
       <h1 class="underlined-title sponsor-container-title">Sponsors</h1>
-  
+
       <div class="sponsor-grid">
         {% for sponsor in site.data.sponsors %}
           {% if sponsor.is-main == false %}
