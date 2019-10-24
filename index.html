@@ -6,22 +6,20 @@ summary: >- # This is used in the description of google searches. Use as many ke
   Impossible Robotics the only FRC team in the north of the netherlands.
 ---
 
-
 <div class="page-content home-content">
 	<div>
 		{% for post in site.posts limit:3 %}
-		<div class="home-post container">
-			<h1 class="underlined-title">{{ post.title }}</h1>
-			<div class="home-post-content">
-				{{ post.content }}
+			<div class="home-post container">
+				<h1 class="underlined-title">{{ post.title }}</h1>
+				<div class="home-post-content">
+					{{ post.content }}
+				</div>
+	
+				<div class="post-info">
+					<p>{{ post.author }}, {{ post.date | date_to_long_string }}</p>
+					<a href="{{ post.url }}" class="button home-post-button">More</a>
+				</div>
 			</div>
-
-
-			<div class="home-post-info">
-				<p>{{ post.author }}, {{ post.date | date_to_long_string }}</p>
-				<a href="{{ post.url }}" class="button home-post-button">More</a>
-			</div>
-		</div>
 		{% endfor %}
 
 		<div class="home-more-posts">

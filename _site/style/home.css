@@ -44,16 +44,6 @@
   font-size: 14pt;
 }
 
-.home-post-info {
-  display: flex;
-  justify-content: space-between;
-}
-
-.home-post-info p {
-  margin: auto 0;
-  color: var(--main-text-saturated);
-}
-
 .home-more-posts {
   width: 100%;
   display: flex;
