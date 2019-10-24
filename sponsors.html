@@ -1,43 +1,48 @@
 ---
 layout: base
 title: 'Sponsors'
+summary: >- # This is used in the description of google searches. Use as many keywords as possible.
+  Impossible Robotics is the only FRC Team (5412) in the north of the Netherlands.
+  We’re really thankful to our sponsor and we could not have reached our goals without them!
 ---
 
 <div class="page-content">
   <h1 class="underlined-title sponsor-thank-title">Thanks to all of our sponsors!</h1>
   <p class="sponsor-thank-text">
-    We’re really thankful to our sponsor and we could not have reached our goals without them! Our sponsors help us from financial support all the way to cutting parts for the robot, from letting us use their 3D printers to allowing us to build in their workshop and much more!
+    We’re really thankful to our sponsor and we could not have reached our goals without them! Our sponsors help us from
+    financial support all the way to cutting parts for the robot, from letting us use their 3D printers to allowing us
+    to build in their workshop and much more!
   </p>
 
   <div class="sponsor-containers">
     <div class="container">
       <h1 class="underlined-title sponsor-container-title">Main Sponsors</h1>
-  
+
       <div class="sponsor-grid">
         {% for sponsor in site.data.sponsors %}
-          {% if sponsor.is-main %}
-            {% if sponsor.url != nil %}
-              <a href="{{ sponsor.url }}"><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"></a>
-            {% else %}
-              <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
-            {% endif %}
-          {% endif %}
+        {% if sponsor.is-main %}
+        {% if sponsor.url != nil %}
+        <a href="{{ sponsor.url }}"><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"></a>
+        {% else %}
+        <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
+        {% endif %}
+        {% endif %}
         {% endfor %}
       </div>
     </div>
-  
+
     <div class="container">
       <h1 class="underlined-title sponsor-container-title">Sponsors</h1>
-  
+
       <div class="sponsor-grid">
         {% for sponsor in site.data.sponsors %}
-          {% if sponsor.is-main == false %}
-            {% if sponsor.url != nil %}
-              <a href="{{ sponsor.url }}"><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"></a>
-            {% else %}
-              <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
-            {% endif %}
-          {% endif %}
+        {% if sponsor.is-main == false %}
+        {% if sponsor.url != nil %}
+        <a href="{{ sponsor.url }}"><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"></a>
+        {% else %}
+        <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
+        {% endif %}
+        {% endif %}
         {% endfor %}
       </div>
     </div>

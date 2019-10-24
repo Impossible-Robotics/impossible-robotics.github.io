@@ -1,9 +1,9 @@
 ---
 title: 'FRC Kickoff'
 author: 'Bauke Westendorp'
-tags: ['frc', 'kickoff', 'frc kickoff', 'new season']
-summary: >-
-  The new FRC season has started! Lorem consequat aute exercitation dolor excepteur. Enim enim eu dolore exercitation officia exercitation consectetur consectetur in reprehenderit irure et commodo nisi. Excepteur amet in aliquip culpa non amet. In aliqua velit tempor minim enim quis.
+summary: >-  # This is used in the description of google searches. Use as many keywords as possible.
+  On fifth and sixth of January we had our annual FRC Kickoff event.
+  Like the last few years, we did this event in the Doe  Museum in Veendam.
 thumbnail: '/res/posts/2019-10-22-frc-kickoff/t1.jpg'
 ---
 
