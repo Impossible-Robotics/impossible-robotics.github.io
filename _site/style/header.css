@@ -31,6 +31,10 @@
     margin: auto 0;
 }
 
+.header .title:hover {
+    transform: initial;
+}
+
 .header .blog-tag {
     background-color: var(--main-accent);
     border-radius: 10px;

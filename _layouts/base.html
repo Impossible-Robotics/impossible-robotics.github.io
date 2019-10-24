@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="google-site-verification" content="9AAE_6Q1dnYmeLad9TpBKEzR_vYaSvfs7EED9YdAZuA" />
+    {% if page.summary == "" or page.summary == nil %}
+        <meta name="description" content="{{ site.description }}">
+    {% else %}
+        <meta name="description" content="{{ page.summary }}">
+    {% endif %}
+
+
 
     <link rel="shortcut icon" type="image/png" href="/res/logos/favicon.png">
 
