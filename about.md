@@ -1,9 +1,8 @@
 ---
 layout: page
 title: 'About'
-summary: >- # This is used in the description of google searches. Use as many keywords as possible.
-  Impossible Robotics is a non-profit organization that among other things is participating in FRC. Our team 5412,
-  is located in the North of The Netherlands.
+summary: 'Impossible Robotics is a non-profit organization that among other things is participating in FRC. Our team 5412, is located in the North of The Netherlands.'
+
 ---
 
 # About Us
