@@ -76,6 +76,11 @@ html {
     outline: none;
 }
 
+.centered-button {
+    display: flex;
+    justify-content: center;
+}
+
 .button {
     background-color: var(--main-accent);
     color: var(--main-text-white);

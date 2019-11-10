@@ -54,7 +54,7 @@
 
 @media only screen and (max-width: 450px) {
     .header .title {
-        display: none;
+        font-size: 7vw;
     }
     .page-list {
         margin: auto auto;
@@ -62,6 +62,7 @@
     }
     .page-list a {
         margin: 5px 15px;
+        font-size: 3vw;
     }
     .page-list a:last-child {
         margin: 5px 15px;
