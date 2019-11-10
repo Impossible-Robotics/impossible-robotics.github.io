@@ -1,60 +1,31 @@
-.home-content {
-  display: flex;
+.home .page-content {
+  display: grid;
+  grid-template-columns: auto 22vw;
+  gap: 5%;
+}
+
+.home .posts {
+  grid-column-start: 1;
+}
+
+.home .posts > * {
+  margin-bottom: 5vh;
+}
+
+.home .posts > *:last-child {
   margin-bottom: 0;
 }
 
-.home-front {
-  display: none;
-  margin-bottom: 5%;
+.home .sidebar {
+  grid-column-start: 2;
 }
 
-.home-front > * {
-  margin-right: 5%;
+.home .sidebar > * {
+  margin-bottom: 5vh;
 }
 
-.home-front > *:last-child {
-  margin-right: 0;
-}
-
-.home-front img {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-
-.home-post {
-  margin-bottom: 5%;
-  min-height: 40vh;
-}
-
-.home-post-content {
-  padding-top: 20px;
-  margin-bottom: 20px;
-}
-
-.home-post-content > * {
-  margin-bottom: 20px;
-}
-
-.home-post-content img {
-  width: 60%;
-  border-radius: 20px;
-}
-.home-post-content p {
-  font-size: 14pt;
-}
-
-.home-more-posts {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 5%;
-}
-
-.home-sidebar {
- min-width: 20%;
- max-width: 20%;
- margin-left: 5%;
+.home .sidebar > *:last-child {
+  margin-bottom: 0;
 }
 
 .home-sidebar-element {
@@ -88,51 +59,18 @@
   margin-top: 10%;
 }
 
-.home-sponsors {
-  background-color: var(--scheme-light-light);
-}
-
-.home-sponsors h1 {
-  color: var(--scheme-light-text);
-}
-
-.home-sponsor-button {
-  display: flex;
-  justify-content: center;
-}
-
-.home-sponsor-button a {
-  box-shadow: 0 0 20px var(--scheme-light-shadow);
-}
-
-.home-featured-button {
-  display: flex;
-  justify-content: center;
-}
-
-@media only screen and (max-width: 1200px) {
-  .home-sidebar {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .home-post-content img {
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  .home-content {
-    margin-top: 0;
+@media only screen and (max-width: 750px) {
+  .home .page-content {
+    grid-template-columns: auto;
   }
 
-  .home-post {
-    margin-bottom: 0;
-    margin-top: 5%;
+  .home .sidebar {
+    grid-column-start: 1;
+    grid-row-start: 1;
   }
 
-  .home-more-posts {
-    margin: 5% 0;
+  .home .posts {
+    grid-column-start: 1;
+    grid-row-start: 2;
   }
 }
