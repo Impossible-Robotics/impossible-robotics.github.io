@@ -134,16 +134,23 @@ html {
 
 .page-content {
     margin: 5% 10%;
+
+    display: grid;
 }
 
 .post-info {
     display: flex;
     justify-content: space-between;
 }
-  
+
 .post-info p {
     margin: auto 0;
     color: var(--main-text-saturated);
+}
+
+.body-content {
+    display: grid;
+    grid-template-rows: 4;
 }
 
 @media only screen and (max-width: 450px) {

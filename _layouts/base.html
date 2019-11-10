@@ -29,9 +29,11 @@
 </head>
 
 <body>
-    {% include header.html %}
-    {{ content }}
-    {% include footer.html %}
+    <div class="body-content">
+        {% include header.html %}
+        {{ content }}
+        {% include footer.html %}
+    </div>
 </body>
 
 </html>
