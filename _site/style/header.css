@@ -35,15 +35,6 @@
     transform: initial;
 }
 
-.header .blog-tag {
-    background-color: var(--main-accent);
-    border-radius: 10px;
-    padding: 5px 6px;
-    margin: auto 0 auto 10px;
-    font-size: 12pt;
-    color: var(--main-text-white);
-}
-
 .navbar-active {
     font-weight: bold;
 }

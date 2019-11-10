@@ -5,7 +5,7 @@ summary: 'That''s right! We''ve arrived in Dubai! If you need to find us there, 
 thumbnail: 'https://scontent-ams4-1.cdninstagram.com/vp/bebb199a40ddaeacbbacd730074f5d14/5E457D6D/t51.2885-15/sh0.08/e35/s640x640/71050798_563036647837731_2961209975015383713_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=103%20640w,https://scontent-ams4-1.cdninstagram.com/vp/3defa95a0c72a95f2933f2e9c2d4612c/5E47D76D/t51.2885-15/sh0.08/e35/s750x750/71050798_563036647837731_2961209975015383713_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=103%20750w,https://scontent-ams4-1.cdninstagram.com/vp/ac0190022f4a0a2b8c3c98997ae60033/5E5A4588/t51.2885-15/e35/71050798_563036647837731_2961209975015383713_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=103%201080w'
 ---
 
-After a few weeks of hard work on our FGC robot, we finally were ready to pack and travel to Dubai for the competitions. 
+After a few weeks of hard work on our FGC robot, we finally were ready to pack and travel to Dubai for the competitions.
 
 ![arrived-image]
 
