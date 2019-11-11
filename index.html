@@ -3,67 +3,20 @@ title: 'Home'
 layout: base
 ---
 
-<div class="home">
+<div class="standard home">
   <div class="page-content">
-    <div class="posts">
-      {% for post in site.posts limit:3 %}
-      <div class="container post">
-          <h1 class="underlined-title">{{ post.title }}</h1>
-          <div class="content">
-            {{ post.content }}
-          </div>
-
-          <div class="info">
-            <p>{{ post.author }}, {{ post.date | date_to_long_string }}</p>
-            <a href="{{ post.url }}" class="button">More</a>
-          </div>
-        </div>
-      {% endfor %}
-
-      <div class="centered-button">
-        <a href="/blog/" class="button">More Posts</a>
-      </div>
+      <div class="main container">
+        <h1 class="underlined-title">Home</h1>
+        <p>Impossible Robotics is a non-profit organization that participates in the FIRST Robotics Competition. We also participate in numerous other events. Our team (team 5412) is composed of High School and College students and is mainly located in the North of the Netherlands. For more information about our team click <a href="about.html">here</a>.</p>
+        <p>Our team aims to inspire and enthuse everyone for technology, from kids, to teenagers and adults. We also try to forge a link between schools and employers.  Besides that we want to promote STEM around the world. For more information about our goals and vision click here.</p>
+        <img src="/res/about/team.jpg" class="homepage-photo" alt="Photo of our team">
+        <p>FIRST is an American organisation that took upon itself the task to promote technology worldwide. To achieve this goal, First, among other things, organises multiple competitions, including the FIRST Robotics Competition. For more information about FIRST or the FRC click <a href="https://www.firstinspires.org/robotics/frc">here</a>.</p>
     </div>
+      
     <div class="sidebar">
-      <div class="container featured-post">
-          <h1 class="label underlined-title">Featured Post</h1>
-
-          {% for post in site.posts %}
-            {% if post.path contains "featured" %}
-              {% assign featured-post = post %}
-            {% endif %}
-          {% endfor %}
-
-          <a href="{{ featured-post.url }}">
-            <h1 class="title">{{ featured-post.title }}</h1>
-            <p class="summary">{{ featured-post.summary }}</p>
-
-            {% if featured-post.thumbnail != nil %}
-              <img src="{{ featured-post.thumbnail }}">
-            {% endif %}
-          </a>
-
-          <div class="centered-button">
-            <a href="{{ featured-post.url }}" class="button">Read More</a>
-          </div>
-      </div>
-      <div class="container sponsors">
-        <h1 class="label underlined-title">Powered By</h1>
-
-        {% for sponsor in site.data.sponsors %}
-          {% if sponsor.is-main %}
-            {% if sponsor.url != nil %}
-              <a href="{{ sponsor.url }}"><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"></a>
-            {% else %}
-              <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-
-        <div class="centered-button">
-          <a href="/sponsors/" class="button home-sponsor-button">See all</a>
-        </div>
-      </div>
+        {% include featureposts-sidebar.html %}
+        {% include sponsors-sidebar.html %}
     </div>
+
   </div>
 </div>

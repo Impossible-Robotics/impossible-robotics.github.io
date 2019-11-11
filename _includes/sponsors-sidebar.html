@@ -1,0 +1,16 @@
+<div class="container sponsors">
+  <h1 class="label underlined-title">Powered By</h1>
+
+  {% for sponsor in site.data.sponsors %} {% if sponsor.is-main %} {% if
+  sponsor.url != nil %}
+  <a href="{{ sponsor.url }}"
+    ><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"
+  /></a>
+  {% else %}
+  <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" />
+  {% endif %} {% endif %} {% endfor %}
+
+  <div class="centered-button">
+    <a href="/sponsors/" class="button home-sponsor-button">See all</a>
+  </div>
+</div>

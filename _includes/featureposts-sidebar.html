@@ -1,0 +1,22 @@
+<div class="container featured-post">
+    <h1 class="label underlined-title">Featured Post</h1>
+
+    {% for post in site.posts %}
+      {% if post.path contains "featured" %}
+        {% assign featured-post = post %}
+      {% endif %}
+    {% endfor %}
+
+    <a href="{{ featured-post.url }}">
+      <h1 class="title">{{ featured-post.title }}</h1>
+      <p class="summary">{{ featured-post.summary }}</p>
+
+      {% if featured-post.thumbnail != nil %}
+        <img src="{{ featured-post.thumbnail }}">
+      {% endif %}
+    </a>
+
+    <div class="centered-button">
+      <a href="{{ featured-post.url }}" class="button">Read More</a>
+    </div>
+</div>

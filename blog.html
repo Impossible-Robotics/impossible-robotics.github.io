@@ -1,0 +1,34 @@
+---
+title: 'Blog'
+layout: base
+---
+
+<div class="blog">
+  <div class="page-content">
+    <div class="posts">
+      {% for post in site.posts limit:3 %}
+      <div class="container post">
+          <h1 class="underlined-title">{{ post.title }}</h1>
+          <div class="content">
+            {{ post.content }}
+          </div>
+
+          <div class="info">
+            <p>{{ post.author }}, {{ post.date | date_to_long_string }}</p>
+            <a href="{{ post.url }}" class="button">More</a>
+          </div>
+        </div>
+      {% endfor %}
+
+      <div class="centered-button">
+        <a href="/blog/" class="button">More Posts</a>
+      </div>
+    </div>
+    <div class="sidebar">
+      
+      {% include featureposts-sidebar.html %}
+      {% include sponsors-sidebar.html %}
+      
+    </div>
+  </div>
+</div>
