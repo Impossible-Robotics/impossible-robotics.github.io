@@ -117,6 +117,11 @@ html {
     box-shadow: 0 0 20px var(--main-shadow);
 }
 
+.container img {
+    width: 80%;
+    border-radius: 20px;
+}
+
 .underlined-title {
     border-bottom-style: solid;
     border-bottom-color: var(--main-accent);
@@ -145,7 +150,12 @@ html {
     .page-content {
         margin: 5% 0;
     }
+
     .container {
         border-radius: 0;
+    }
+
+    .container img {
+        width: 100%;
     }
 }

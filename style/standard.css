@@ -19,11 +19,6 @@
   line-height: 1.5em;
 }
 
-.standard .main > *:not(:first-child) {
-  margin-left: 2vw;
-  margin-right: 0vw;
-}
-
 .standard .main > *:last-child {
   margin-bottom: 0;
 }
