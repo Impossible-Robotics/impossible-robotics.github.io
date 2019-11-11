@@ -1,25 +1,68 @@
 .about .page-content {
-    display: grid;
-    grid-template-columns: auto 22vw;
-    gap: 5%;
-    margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: auto 22vw;
+  gap: 5%;
+  margin-bottom: 40px;
+}
+
+.about .main {
+  grid-column-start: 1;
+}
+
+.about .main > * {
+  margin-bottom: 3vh;
+}
+
+.about .main > *:not(:first-child) {
+  margin-left: 5%;
+}
+
+.about .main > *:last-child {
+  margin-bottom: 0;
+}
+
+.about .sidebar {
+  grid-column-start: 2;
+}
+
+.about .sidebar > * {
+  margin-bottom: 5vh;
+}
+
+.about .sidebar > *:last-child {
+  margin-bottom: 0;
+}
+
+.about .sidebar .label {
+  margin-bottom: 15px;
+}
+
+.about .sidebar .featured-post .title {
+  font-size: 20pt;
+}
+
+.about .sidebar .featured-post .summary {
+  margin: 20px 0;
+}
+
+.about .sidebar img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .about .page-content {
+    display: block;
   }
 
-.about p{
-    font-weight: 400;
-    font-size: 20px;
-    margin-left: 5%;
-    line-height: 1.5em;
-    margin-bottom: 3vh;
+  .about .sidebar {
+    display: none;
+  }
 }
 
-.about img{
-    margin-left: 5%;
-}
-
-.about video{
-    margin-left: 5%;
-}
-.about h1{
-    margin-bottom: 3vh;
+.about p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5em;
 }
