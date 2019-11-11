@@ -1,8 +1,16 @@
+.about .page-content {
+    display: grid;
+    grid-template-columns: auto 22vw;
+    gap: 5%;
+    margin-bottom: 40px;
+  }
+
 .about p{
     font-weight: 400;
     font-size: 20px;
     margin-left: 5%;
     line-height: 1.5em;
+    margin-bottom: 3vh;
 }
 
 .about img{
@@ -11,4 +19,7 @@
 
 .about video{
     margin-left: 5%;
+}
+.about h1{
+    margin-bottom: 3vh;
 }

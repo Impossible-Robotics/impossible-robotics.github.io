@@ -5,7 +5,7 @@ layout: base
 
 <div class="home">
     <div class="page-content">
-      <div class="posts about">
+      <div class="about">
         
         <h1>About</h1>
         <p>Impossible Robotics is a non-profit organization that among other things is participating in the <a href="https://www.firstinspires.org/robotics/frc">FIRST Robotics Competition</a>. Our team (team 5412) is located in the North of The Netherlands. The main goal of Impossible Robotics is to inspire and enthuse everyone for technology, from kids, to teenagers and adults.</p>
@@ -24,20 +24,18 @@ layout: base
 
       </div>
       <div class="sidebar">
-        
         <div class="container sponsors">
           <h1 class="label underlined-title">Powered By</h1>
 
-          {% for sponsor in site.data.sponsors %}
-            {% if sponsor.is-main %}
-              {% if sponsor.url != nil %}
-                <a href="{{ sponsor.url }}"><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"></a>
-              {% else %}
-                <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
-              {% endif %}
-            {% endif %}
-          {% endfor %}
-  
+          {% for sponsor in site.data.sponsors %} {% if sponsor.is-main %} {% if
+          sponsor.url != nil %}
+          <a href="{{ sponsor.url }}"
+            ><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"
+          /></a>
+          {% else %}
+          <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" />
+          {% endif %} {% endif %} {% endfor %}
+
           <div class="centered-button">
             <a href="/sponsors/" class="button home-sponsor-button">See all</a>
           </div>
