@@ -3,10 +3,9 @@
 
     <div class="page-list">
         <a href="/" {% if page.path contains "index" %} class="navbar-active" {% endif %}>Home</a>
-        <a href="/blog/" {% if page.path contains "blog" %} class="navbar-active" {% endif %}>Blog</a>
-        <a href="/about/" {% if page.path contains "about" %} class="navbar-active" {% endif %}>About</a>
-        <a href="/sponsors/" {% if page.path contains "sponsors" %} class="navbar-active" {% endif %}>Sponsors</a>
-        <a href="/contact/" {% if page.path contains "contact" %} class="navbar-active" {% endif %}>Contact</a>
-
+        <a href="/blog" {% if page.path contains "blog" %} class="navbar-active" {% endif %}>Blog</a>
+        <a href="/about" {% if page.path contains "about" %} class="navbar-active" {% endif %}>About</a>
+        <a href="/sponsors" {% if page.path contains "sponsors" %} class="navbar-active" {% endif %}>Sponsors</a>
+        <a href="/contact" {% if page.path contains "contact" %} class="navbar-active" {% endif %}>Contact</a>
     </div>
 </div>
