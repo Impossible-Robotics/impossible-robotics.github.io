@@ -1,0 +1,47 @@
+---
+title: 'About'
+layout: base
+---
+
+<div class="home">
+    <div class="page-content">
+      <div class="posts about">
+        
+        <h1>About</h1>
+        <p>Impossible Robotics is a non-profit organization that among other things is participating in the <a href="https://www.firstinspires.org/robotics/frc">FIRST Robotics Competition</a>. Our team (team 5412) is located in the North of The Netherlands. The main goal of Impossible Robotics is to inspire and enthuse everyone for technology, from kids, to teenagers and adults.</p>
+        <p>We started with FLL and built our way up through FTC to get to FRC. With a team growing bigger and better each season, we take on the challenge to encourage the multidisciplinary commitment to skills and technology.</p>
+        <p>Impossible Robotics was founded in august 2014. <a href="http://teamrembrandts.com/">Team 4481</a> taught us the essentials for having a FRC team. Now we are trying to progress our team each year and teach our students the essentials of solving problems together and building robots. Examples of these skills are engineering, programming, time management, presentation skills, teamwork and leadership.</p>    
+
+        <img src="/res/about/Working_In_Doe_Museum2018-2.jpg" alt="Working in Doe Museum in Groningen">
+
+        <p>We are also having a lot of outreach events, where we are trying to reach our goal of enthusing kids for technology.</p>
+        <p>Besides all the above Impossible Robotics is a fun and intimate team. But the most important thing we want to effectuate is to create an environment where the students can discover and expend their talents and interests, whether it is technology minded or other cool stuff. We want to welcome all creativity and challenge the impossible together.</p>
+        <!-- <p>If you’d like to find out more about our vision and goals, you can click here.</p> -->
+        <p>Below here you can find our chairmans video of the 2018/2019 season, it gives a good impression of what we are doing.</p>
+        <video width="480" height="360" controls>
+            <source src="/res/about/Chairmans-Video-2019.mp4" type="video/mp4">
+          </video>
+
+      </div>
+      <div class="sidebar">
+        
+        <div class="container sponsors">
+          <h1 class="label underlined-title">Powered By</h1>
+
+          {% for sponsor in site.data.sponsors %}
+            {% if sponsor.is-main %}
+              {% if sponsor.url != nil %}
+                <a href="{{ sponsor.url }}"><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"></a>
+              {% else %}
+                <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+  
+          <div class="centered-button">
+            <a href="/sponsors/" class="button home-sponsor-button">See all</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
