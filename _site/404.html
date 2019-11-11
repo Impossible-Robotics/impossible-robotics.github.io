@@ -1,20 +1,67 @@
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="container">
-  <h1>404</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+    
+        <meta name="description" content="DESCRIPTION">
+    
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init("user_7OktEY5QiEpBfRty9CV31");
+       })();
+    </script>
+
+    <link rel="shortcut icon" type="image/png" href="/res/logos/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/style/style.css">
+    <link rel="stylesheet" type="text/css" href="/style/header.css">
+    <link rel="stylesheet" type="text/css" href="/style/footer.css">
+    <link rel="stylesheet" type="text/css" href="/style/404.css">
+    <link rel="stylesheet" type="text/css" href="/style/blog.css">
+    <link rel="stylesheet" type="text/css" href="/style/post.css">
+    <link rel="stylesheet" type="text/css" href="/style/standard.css">
+    <link rel="stylesheet" type="text/css" href="/style/about.css">
+    <link rel="stylesheet" type="text/css" href="/style/contact.css">
+
+    <title> | Impossible Robotics</title>
+</head>
+
+<body>
+    <div class="header">
+    <a class="title" href="/index.html">Impossible Robotics</a>
+
+    <div class="page-list">
+        <a href="/" >Home</a>
+        <a href="/blog" >Blog</a>
+        <a href="/about" >About</a>
+        <a href="/sponsors" >Sponsors</a>
+        <a href="/contact" >Contact</a>
+    </div>
 </div>
+
+    <div class="content-404">
+  <h1>¯\_(ツ)_/¯</h1>
+  <h2>We could not find the page you were looking for...</h2>
+
+  <div class="button-holder">
+      <a href="/" class="button">Return to home</a>
+  </div>
+</div>
+    <div class="footer">
+  <h3 class="site-name">Impossible Robotics</h3>
+
+  <button class="toggle-scheme-button icon-button" onclick="toggleScheme()">
+    <p id="toggle-scheme-icon" class="icon">&#x2600; Light Mode</p>
+    <script src="/scripts/scheme-changer.js"></script>
+  </button>
+</div>
+
+</body>
+
+</html>

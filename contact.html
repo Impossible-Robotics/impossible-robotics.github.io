@@ -13,7 +13,19 @@ layout: base
         us, please fill in this form and then we'll contact you! You can also
         use the contact details on the right side to contact us!
       </p>
-      
+
+      <form>
+        <p>Name</p><input id="contact-name" type="text">
+        <p>Email</p><input id="contact-email" type="email">
+        <p>Message</p><textarea id="contact-message"cols="30" rows="10"></textarea>
+        <p type="submit" onclick="send()">Send</p>
+      </form>
+
+      <script>
+        function send() {
+          console.log("SENT!");
+        }
+      </script>
     </div>
 
     <div class="sidebar">

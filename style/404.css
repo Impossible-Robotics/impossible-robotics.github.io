@@ -1,21 +1,28 @@
-.message-404 {
-    margin-top: 30vh;
-}
-
-.message-404 > * {
+.content-404 {
     text-align: center;
+    height: calc(100vh - 240px);
+
+    padding-top: 20vh;
 }
 
-.message-404 h1 {
-    font-size: 7vw;
-    /*font-size: 4em;*/
-	font-weight: 800;
-	color: var(--main-accent);
-	transition: 0.2s;
+.content-404 > * {
+    margin: 30px 0;
 }
 
-.message-404 p {
-    font-size: 2vw;
-    font-family: Arial, Helvetica, sans-serif;
-	color: var(--main-text);
+.content-404 h1 {
+    font-size: 40pt;
+}
+
+.content-404 .button-holder {
+    margin-top: 60px;
+}
+
+@media only screen and (max-width: 450px) {
+    .content-404 h1 {
+        font-size: 12vw;
+    }
+
+    .content-404 h2 {
+        font-size: 6vw;
+    }
 }
