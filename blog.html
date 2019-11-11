@@ -25,45 +25,10 @@ layout: base
       </div>
     </div>
     <div class="sidebar">
-      <div class="container featured-post">
-          <h1 class="label underlined-title">Featured Post</h1>
-
-          {% for post in site.posts %}
-            {% if post.path contains "featured" %}
-              {% assign featured-post = post %}
-            {% endif %}
-          {% endfor %}
-
-          <a href="{{ featured-post.url }}">
-            <h1 class="title">{{ featured-post.title }}</h1>
-            <p class="summary">{{ featured-post.summary }}</p>
-
-            {% if featured-post.thumbnail != nil %}
-              <img src="{{ featured-post.thumbnail }}">
-            {% endif %}
-          </a>
-
-          <div class="centered-button">
-            <a href="{{ featured-post.url }}" class="button">Read More</a>
-          </div>
-      </div>
-      <div class="container sponsors">
-        <h1 class="label underlined-title">Powered By</h1>
-
-        {% for sponsor in site.data.sponsors %}
-          {% if sponsor.is-main %}
-            {% if sponsor.url != nil %}
-              <a href="{{ sponsor.url }}"><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"></a>
-            {% else %}
-              <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-
-        <div class="centered-button">
-          <a href="/sponsors/" class="button home-sponsor-button">See all</a>
-        </div>
-      </div>
+      
+      {% include featureposts-sidebar.html %}
+      {% include sponsors-sidebar.html %}
+      
     </div>
   </div>
 </div>
