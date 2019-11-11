@@ -8,14 +8,8 @@
 
 .message-404 h1 {
     font-size: 7vw;
-    /*font-size: 4em;*/
-	font-weight: 800;
-	color: var(--main-accent);
-	transition: 0.2s;
 }
 
 .message-404 p {
     font-size: 2vw;
-    font-family: Arial, Helvetica, sans-serif;
-	color: var(--main-text);
 }
