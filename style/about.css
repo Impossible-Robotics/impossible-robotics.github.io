@@ -1,0 +1,14 @@
+.about p{
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 5%;
+    line-height: 1.5em;
+}
+
+.about img{
+    margin-left: 5%;
+}
+
+.about video{
+    margin-left: 5%;
+}
