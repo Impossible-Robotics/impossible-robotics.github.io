@@ -30,6 +30,15 @@ url: 'http://impossiblerobotics.nl' # the base hostname & protocol for your site
 plugins:
   - jekyll-feed
 
+permalink: ./:year-:month-:day/:title/
+
+defaults:
+  - scope:
+      path: ''
+      type: 'posts'
+    values:
+      layout: 'post'
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
