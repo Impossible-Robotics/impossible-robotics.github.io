@@ -52,7 +52,8 @@ h3,
 h4,
 h5,
 h6,
-a {
+a,
+li {
     font-family: Helvetica, Arial, sans-serif;
     color: var(--main-text);
 }
