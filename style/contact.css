@@ -40,9 +40,23 @@
     margin-right: 10%;
 }
 
+#contact-mobile-details {
+    display: none;
+}
+
 @media only screen and (max-width: 1000px) {
     #contact-name, #contact-email, #contact-message {
         width: 90%;
+    }
+
+    #contact-mobile-details {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #contact-mobile-details {
+        display: block;
     }
 }
 
