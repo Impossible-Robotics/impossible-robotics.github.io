@@ -15,17 +15,17 @@ layout: base
       </p>
 
       <form>
-        <p>Name</p><input id="contact-name" type="text">
-        <p>Email</p><input id="contact-email" type="email">
-        <p>Message</p><textarea id="contact-message"cols="30" rows="10"></textarea>
-        <p type="submit" onclick="send()">Send</p>
+        <input id="contact-name" type="text" placeholder="Name">
+        <input id="contact-email" type="email" placeholder="E-Mail">
+        <textarea id="contact-message"cols="30" rows="10" placeholder="Message"></textarea>
+        <br>
+        <div id="contact-bottom">
+          <button id="contact-submit" type="button" class="button" onclick="send()">Send</button>
+          <p id="contact-status"></p>
+        </div>
       </form>
 
-      <script>
-        function send() {
-          console.log("SENT!");
-        }
-      </script>
+      <script src="scripts/contact-form.js"></script>
     </div>
 
     <div class="sidebar">

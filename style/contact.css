@@ -1,8 +1,57 @@
-.contact .contact-details h1{
+.contact .contact-details h1 {
     font-size: 20pt;
     margin-bottom: 0.5em;
 }
 
-.contact .contact-details p{
+.contact .contact-details p {
     margin-bottom: 0.25em;
+}
+
+#contact-name, #contact-email, #contact-message {
+    border: 3px solid var(--main-medium);
+    border-radius: 20px;
+    box-shadow: 0 0 20px var(--main-shadow);
+
+
+
+    padding: 10px;
+    margin-bottom: 20px;
+
+    color: var(--main-text-opposite);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14pt;
+}
+
+#contact-name, #contact-email {
+    width: 50%;
+}
+
+#contact-message {
+    width: 75%;
+    resize: none;
+}
+
+#contact-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact-bottom .button {
+    margin-right: 10%;
+}
+
+@media only screen and (max-width: 1000px) {
+    #contact-name, #contact-email, #contact-message {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #contact-bottom {
+        display: block;
+    }
+
+    #contact-submit {
+        margin-bottom: 20px;
+    }
 }
