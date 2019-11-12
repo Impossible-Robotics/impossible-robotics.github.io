@@ -112,16 +112,28 @@ html {
     color: var(--main-accent-light);
 }
 
-.container {
-    background-color: var(--main-light);
+*[class*="container"] {
     padding: 30px;
     border-radius: 20px;
+}
+
+*[class*="container"] img {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.container {
+    background-color: var(--main-light);
     box-shadow: 0 0 20px var(--main-shadow);
 }
 
-.container img {
-    width: 80%;
-    border-radius: 20px;
+.container-white {
+    background-color: var(--scheme-light-light);
+    box-shadow: 0 0 20px var(--light-shadow);   
+}
+
+.container-white h1, .container-white h2, .container-white h3, .container-white p {
+    color: var(--scheme-light-text);
 }
 
 .underlined-title {
@@ -153,11 +165,11 @@ html {
         margin: 5% 0;
     }
 
-    .container {
+    *[class*="container"] {
         border-radius: 0;
     }
 
-    .container img {
+    *[class*="container"] img {
         width: 100%;
     }
 }
