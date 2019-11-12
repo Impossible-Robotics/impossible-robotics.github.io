@@ -1,0 +1,16 @@
+.what-are-first-frc .logo{
+    width: 25%;
+}
+
+.what-are-first-frc b{
+    font-weight: 1000;
+}
+
+.what-are-first-frc .first-programs{
+    width: 100%;
+}
+
+.what-are-first-frc  li{
+    font-size: 20px;
+    margin-left: 2.5em;
+}
