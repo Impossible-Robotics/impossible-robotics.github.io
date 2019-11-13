@@ -5,7 +5,7 @@ layout: info-page
 
 FIRST stands for For Inspiration and Recognition of Science and Technology, and is an American non-profit organisation. Their mission is to inspire young people to become science and technology leaders and innovators, by engaging them in exciting mentor-based programs that build science, engineering, and technology skills, inspire innovation, and foster well-rounded life capabilities including self-confidence, communication and leadership.
 
-<img class="logo small-post-image" src="/res/first/first-logo-200px.png" alt="Logo of FIRST">
+<img style="width: 25%;" src="/res/first/first-logo-200px.png" alt="Logo of FIRST">
 
 FIRST was founded in 1989 by Dean Kamen. He is a prolific inventor, entrepreneur, and tireless advocate for science and technology. His passion is to help young people discover the excitement and rewards of science and technology. For over 25 years, Kamen has resolutely led the growth of FIRST to where it is now universally recognized as the leading, non-profit STEM engagement program for kids worldwide. Dean Kamen himself said:
 
