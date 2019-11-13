@@ -163,6 +163,7 @@ html {
 @media only screen and (max-width: 450px) {
     .page-content {
         margin: 5% 0;
+        border-radius: 0;
     }
 
     *[class*="container"] img {
