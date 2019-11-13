@@ -8,11 +8,11 @@
     font-size: 14pt;
 }
 
-.sponsor-containers .container-white {
+.sponsor-boxes .container-white {
     margin-bottom: 5%;
 }
 
-.sponsor-containers .container-white:last-child {
+.sponsor-boxes .container-white:last-child {
     margin-bottom: 0;
 }
 

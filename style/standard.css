@@ -61,5 +61,11 @@
   .standard .sidebar {
     display: none;
   }
+  
 }
 
+@media only screen and (max-width: 450px) {
+  .main {
+    border-radius: 0;
+  }
+}

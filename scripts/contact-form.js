@@ -1,7 +1,4 @@
 function send() {
-    const delay = 600000; // In milis.
-    // const delay = 1000; // In milis.
-
     let lastSent = parseInt(localStorage.getItem('contact-last-sent'));
     let statusElement = document.getElementById('contact-status');
     
@@ -29,7 +26,7 @@ function send() {
         });
     }
     
-    if (lastSent == null || Date.now() > lastSent + delay) {
+    if (lastSent == null || Date.now() > lastSent + 600000) {
       sendMail();
       localStorage.setItem('contact-last-sent', Date.now());
 

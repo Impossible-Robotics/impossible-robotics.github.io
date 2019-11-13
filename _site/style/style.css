@@ -115,6 +115,7 @@ html {
 *[class*="container"] {
     padding: 30px;
     border-radius: 20px;
+    box-shadow: 0 0 20px var(--main-shadow);
 }
 
 *[class*="container"] img {
@@ -124,7 +125,6 @@ html {
 
 .container {
     background-color: var(--main-light);
-    box-shadow: 0 0 20px var(--main-shadow);
 }
 
 .container-white {
@@ -163,10 +163,6 @@ html {
 @media only screen and (max-width: 450px) {
     .page-content {
         margin: 5% 0;
-    }
-
-    *[class*="container"] {
-        border-radius: 0;
     }
 
     *[class*="container"] img {
