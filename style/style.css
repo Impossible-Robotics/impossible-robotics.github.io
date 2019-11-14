@@ -129,7 +129,7 @@ html {
 
 .container-white {
     background-color: var(--scheme-light-light);
-    box-shadow: 0 0 20px var(--light-shadow);   
+    box-shadow: 0 0 20px var(--light-shadow);
 }
 
 .container-white h1, .container-white h2, .container-white h3, .container-white p {
@@ -158,6 +158,22 @@ html {
 
 .page-content {
     margin: 5% 10%;
+}
+
+.video-embed-holder {
+    position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-embed-holder iframe {
+    position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
 }
 
 @media only screen and (max-width: 450px) {
