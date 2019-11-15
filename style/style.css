@@ -77,6 +77,10 @@ html {
     outline: none;
 }
 
+ul {
+    list-style: none;
+}
+
 .centered-button {
     display: flex;
     justify-content: center;
