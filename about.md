@@ -2,7 +2,7 @@
 title: 'About'
 layout: info-page
 ---
-  
+
 Impossible Robotics is a non-profit organization that among other things is participating in the [FIRST Robotics Competition](/what-are-first-and-frc). Our team (team 5412) is located in the North of The Netherlands. The main goal of Impossible Robotics is to inspire and enthuse everyone for technology, from kids, to teenagers and adults.
 
 We started with FLL and built our way up through FTC to get to FRC. With a team growing bigger and better each season, we take on the challenge to encourage the multidisciplinary commitment to skills and technology.
@@ -19,6 +19,7 @@ If you’d like to find out more about our vision and goals, you can click [here
 
 Below here you can find our chairmans video of the 2018/2019 season, it gives a good impression of what we are doing.
 
-<iframe src="https://www.youtube.com/embed/04xCSpfRjSk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="video-embed-holder">
+  <iframe src="https://www.youtube.com/embed/04xCSpfRjSk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 [doe-museum]: /res/about/Working_In_Doe_Museum2018-2.jpg

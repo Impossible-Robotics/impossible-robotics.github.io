@@ -29,6 +29,7 @@
 
 .sponsor-grid img {
     width: 15vw;
+    border-radius: 0;
 }
 
 .sponsor-title {

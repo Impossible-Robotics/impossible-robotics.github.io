@@ -6,7 +6,7 @@ layout: base
 <div class="blog">
   <div class="page-content">
     <div class="posts">
-      {% for post in site.posts limit:3 %}
+      {% for post in site.posts %}
       <div class="container post">
           <h1 class="underlined-title">{{ post.title }}</h1>
           <div class="content">
@@ -20,10 +20,15 @@ layout: base
         </div>
       {% endfor %}
     </div>
-    
+
     <div class="sidebar">
-      {% include featureposts-sidebar.html %}
-      {% include sponsors-sidebar.html %}
+      {% include sidebar/featurepost.html %}
+
+      <div class="centered-button">
+        <a class="button" href="/post-archive.html">Post Archive</a>
+      </div>
+
+      {% include sidebar/sponsors.html %}
     </div>
   </div>
 </div>

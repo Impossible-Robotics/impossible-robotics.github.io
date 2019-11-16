@@ -8,19 +8,43 @@
 }
 
 .page-list {
-    display: flex;
-    margin: 0;
-}
-
-.page-list a:last-child {
-    margin-right: 0;
-}
-
-.page-list a {
     font-size: 14pt;
     margin: auto 0;
     margin-right: 30px;
     text-transform: uppercase;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.page-list > * {
+    margin: auto 5px;
+    display: inline-block;
+}
+
+.page-list li > a {
+    text-align: center;
+}
+
+.page-list ul > li {
+    background-color: var(--main-light);
+    border-top: 2px solid var(--main-medium);
+}
+
+.page-list li > ul {
+    display: none;
+    position: absolute;
+}
+
+.page-list li:hover > ul {
+    display: block;
+}
+
+.page-list li > ul ul {
+    right: 100%;
+    top:50%;
+    width: 75%;
 }
 
 .header .title {

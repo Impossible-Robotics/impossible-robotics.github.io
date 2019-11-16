@@ -1,11 +1,22 @@
 <div class="header">
-    <a class="title" href="/index.html">Impossible Robotics</a>
-
-    <div class="page-list">
-        <a href="/" {% if page.path contains "index" %} class="navbar-active" {% endif %}>Home</a>
-        <a href="/blog" {% if page.path contains "blog" %} class="navbar-active" {% endif %}>Blog</a>
-        <a href="/about" {% if page.path contains "about" %} class="navbar-active" {% endif %}>About</a>
-        <a href="/sponsors" {% if page.path contains "sponsors" %} class="navbar-active" {% endif %}>Sponsors</a>
-        <a href="/contact" {% if page.path contains "contact" %} class="navbar-active" {% endif %}>Contact</a>
-    </div>
+  <a class="title" href="/index.html">Impossible Robotics</a>
+  <ul class="page-list">
+    <li><a href="/" {% if page.path contains "index" %} class="navbar-active" {% endif %}>Home</a></li>
+    <li><a href="/blog" {% if page.path contains "blog" %} class="navbar-active" {% endif %}>Blog</a></li>
+    <li><a href="/about" {% if page.path contains "about" %} class="navbar-active" {% endif %}>About</a></li>
+    <li><a href="/sponsors" {% if page.path contains "sponsors" %} class="navbar-active" {% endif %}>Sponsors</a></li>
+    <li><a href="/contact" {% if page.path contains "contact" %} class="navbar-active" {% endif %}>Contact</a></li>
+    <li><a href="#">More &#9660</a>
+      <ul>
+        <li><a href="/outreach">Outreach</a></li>
+        <li><a href="#">What we have to offer</a>
+          <ul>
+            <li><a href="/what-we-have-to-offer/events">To events</a></li>
+            <li><a href="/what-we-have-to-offer/sponsors">To sponsors</a></li>
+            <li><a href="/what-we-have-to-offer/members">To members</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
 </div>
