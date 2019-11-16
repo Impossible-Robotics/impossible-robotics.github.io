@@ -9,13 +9,13 @@
       "name": "Hanzehogeschool",
       "image": "/res/logos/sponsors/hanze.png",
       "url": "https://www.hanze.nl/eng",
-      "is-main": true
+      "is-main": false
     },
     {
       "name": "NHL Stenden Hogeschool",
       "image": "/res/logos/sponsors/nhl.png",
       "url": "https://www.nhlstenden.com/",
-      "is-main": true
+      "is-main": false
     },
     {
       "name": "Ijntema BV",
