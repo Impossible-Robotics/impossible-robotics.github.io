@@ -1,47 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     {% if page.summary == "" or page.summary == nil %}
-        <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="{{ site.description }}" />
     {% else %}
-        <meta name="description" content="{{ page.summary }}">
+    <meta name="description" content="{{ page.summary }}" />
     {% endif %}
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"
+    ></script>
     <script type="text/javascript">
-       (function(){
-          emailjs.init("user_7OktEY5QiEpBfRty9CV31");
-       })();
+      (function() {
+        emailjs.init("user_58MjxmEWpeAHpEQT32B1o");
+      })();
     </script>
 
-    <link rel="icon" href="/res/logos/favicon.png" sizes="32x32">
+    <link rel="icon" href="/res/logos/favicon.png" sizes="32x32" />
 
-    <link rel="shortcut icon" type="image/png" href="/res/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="/res/favicon.png" />
 
-
-    <link rel="stylesheet" type="text/css" href="/style/style.css">
-    <link rel="stylesheet" type="text/css" href="/style/header.css">
-    <link rel="stylesheet" type="text/css" href="/style/footer.css">
-    <link rel="stylesheet" type="text/css" href="/style/404.css">
-    <link rel="stylesheet" type="text/css" href="/style/blog.css">
-    <link rel="stylesheet" type="text/css" href="/style/post.css">
-    <link rel="stylesheet" type="text/css" href="/style/sponsors.css">
-    <link rel="stylesheet" type="text/css" href="/style/standard.css">
-    <link rel="stylesheet" type="text/css" href="/style/contact.css">
-    <link rel="stylesheet" type="text/css" href="/style/post-archive.css">
+    <link rel="stylesheet" type="text/css" href="/style/style.css" />
+    <link rel="stylesheet" type="text/css" href="/style/header.css" />
+    <link rel="stylesheet" type="text/css" href="/style/footer.css" />
+    <link rel="stylesheet" type="text/css" href="/style/404.css" />
+    <link rel="stylesheet" type="text/css" href="/style/blog.css" />
+    <link rel="stylesheet" type="text/css" href="/style/post.css" />
+    <link rel="stylesheet" type="text/css" href="/style/sponsors.css" />
+    <link rel="stylesheet" type="text/css" href="/style/standard.css" />
+    <link rel="stylesheet" type="text/css" href="/style/contact.css" />
+    <link rel="stylesheet" type="text/css" href="/style/post-archive.css" />
 
     <title>{{ page.title }} | Impossible Robotics</title>
-</head>
+  </head>
 
-<body>
-    {% include header.html %}
-    {{ content }}
-    {% include footer.html %}
-</body>
-
+  <body>
+    {% include header.html %} {{ content }} {% include footer.html %}
+  </body>
 </html>
