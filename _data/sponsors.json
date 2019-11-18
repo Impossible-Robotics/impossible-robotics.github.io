@@ -6,6 +6,12 @@
       "is-main": true
     },
     {
+      "name": "Dutch Content Productions",
+      "image": "/res/logos/sponsors/dutch_content_productions.png",
+      "url": "https://dcp-tv.nl/",
+      "is-main": false
+    },
+    {
       "name": "Hanzehogeschool",
       "image": "/res/logos/sponsors/hanze.png",
       "url": "https://www.hanze.nl/eng",
