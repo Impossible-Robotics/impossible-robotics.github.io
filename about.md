@@ -7,7 +7,7 @@ Impossible Robotics is a non-profit organization that among other things is part
 
 We started with FLL and built our way up through FTC to get to FRC. With a team growing bigger and better each season, we take on the challenge to encourage the multidisciplinary commitment to skills and technology.
 
-Impossible Robotics was founded in august 2014. [Team 4481](http://teamrembrandts.com/) taught us the essentials for having a FRC team. Now we are trying to progress our team each year and teach our students the essentials of solving problems together and building robots. Examples of these skills are engineering, programming, time management, presentation skills, teamwork and leadership.
+Impossible Robotics was founded in august 2014. <a target="_blank" href="https://teamrembrandts.com">Team 4481</a> taught us the essentials for having a FRC team. Now we are trying to progress our team each year and teach our students the essentials of solving problems together and building robots. Examples of these skills are engineering, programming, time management, presentation skills, teamwork and leadership.
 
 ![doe-museum]
 

@@ -16,12 +16,12 @@ This is what FIRST is really about, not to build the best robot and win games, b
 ![first-programs]
 
 FIRST has four competitions which are based on age:
-* [First Lego League jr.](https://www.firstinspires.org/robotics/flljr) 6 to 10 years old
-* [First Lego League](https://www.firstinspires.org/robotics/fll) 9 to 14 years old
-* [First Tech Challenge](https://www.firstinspires.org/robotics/ftc) 12 to 18 years old
-* [First Robotics Competition](https://www.firstinspires.org/robotics/frc) 14 to 18 years old
+* <a target="_blank" href="https://www.firstinspires.org/robotics/flljr">First Lego League jr.</a>  6 to 10 years old
+* <a target="_blank" href="https://www.firstinspires.org/robotics/fll">First Lego League</a>  9 to 14 years old
+* <a target="_blank" href="https://www.firstinspires.org/robotics/ftc">First Tech Challenge</a>  12 to 18 years old
+* <a target="_blank" href="https://www.firstinspires.org/robotics/frc">First Robotics Competition</a> 14 to 18 years old
 
-And there is a new competition created to emphasize that all the countries around the world should work together to solve world problems. This olympiade is called: [FIRST Global Challenge](http://first.global/)
+And there is a new competition created to emphasize that all the countries around the world should work together to solve world problems. This olympiade is called: <a target="_blank" href="https://www.first.global">FIRST Global Challenge</a>
 
 ![frc-orlando]
 

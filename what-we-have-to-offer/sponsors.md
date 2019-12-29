@@ -11,7 +11,7 @@ We appreciate our sponsors very much, so to thank them we offer all of our spons
 
 Our sponsors also receive our regular newsletters and if wanted we can come to give a presentation about our team. Of course, any additional requests can be discussed.
 
-More information can be found in the short version of our [business plan](http://www.impossible-robotics.com/wp-content/uploads/2019/01/Boekje-van-het-buisnessplan-kort-def.pdf), at the moment this is only available in dutch. In the future, we plan on publishing a translated version as well as a full version of our business plan.
+More information can be found in the short version of our <a target="_blank" href="http://www.impossible-robotics.com/wp-content/uploads/2019/01/Boekje-van-het-buisnessplan-kort-def.pdf">business plan</a>, at the moment this is only available in dutch. In the future, we plan on publishing a translated version as well as a full version of our business plan.
 
 If you are interested in sponsoring us or want more information you can contact us [here](/contact).
 

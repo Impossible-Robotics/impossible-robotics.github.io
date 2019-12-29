@@ -17,7 +17,7 @@ title: 'Sponsors'
         {% for sponsor in site.data.sponsors %}
           {% if sponsor.is-main %}
             {% if sponsor.url != nil %}
-              <a href="{{ sponsor.url }}"><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"></a>
+              <a href="{{ sponsor.url }}" target="_blank"><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"></a>
             {% else %}
               <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
             {% endif %}
@@ -33,7 +33,7 @@ title: 'Sponsors'
         {% for sponsor in site.data.sponsors %}
           {% if sponsor.is-main == false %}
             {% if sponsor.url != nil %}
-              <a href="{{ sponsor.url }}"><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"></a>
+              <a href="{{ sponsor.url }}" target="_blank"><img src="{{ sponsor.image }}" alt="{{ sponsor.name }}"></a>
             {% else %}
               <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
             {% endif %}
