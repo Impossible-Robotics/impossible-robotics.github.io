@@ -12,7 +12,7 @@ This day we were present at the science festival, where we demonstrated what it 
 
 ![photo]
 
-Our team members, Henk van de Wal and Jamie Kazemier have helped with judging the FLL teams this day. Henk was part of the judging panel for the innovation project, while Jamie was part of the child judges, he learned a lot from this experience.
+Our team members, Henk van der Wal and Jamie Kazemier have helped with judging the FLL teams this day. Henk was part of the judging panel for the innovation project, while Jamie was part of the child judges, he learned a lot from this experience.
 
 As mentioned above, we were also building our robot this day. Our focus was on the arm we are going to use to climb on the generator switch. It didn’t work out as well as we hoped it would do, because beforehand we forgot to account for a few things. So we went on prototyping, to solve the problems. We were not able to finish it entirely, so we will go on next time.
 
