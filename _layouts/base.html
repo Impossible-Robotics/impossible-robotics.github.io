@@ -11,12 +11,6 @@
     <meta name="description" content="{{ page.summary }}" />
     {% endif %}
 
-    <script type="text/javascript">
-      (function() {
-        emailjs.init("user_58MjxmEWpeAHpEQT32B1o");
-      })();
-    </script>
-
     <link rel="icon" href="/res/logos/favicon.png" sizes="32x32" />
 
     <link rel="shortcut icon" type="image/png" href="/res/favicon.png" />
@@ -31,6 +25,14 @@
 
     {% if page.js != "" and page.js != nil %}
     <script type="text/javascript" src="{{ page.js }}"></script>
+    {% endif %}
+
+    {% if page.title == 'Contact' %}
+    <script type="text/javascript">
+      (function() {
+        emailjs.init("user_58MjxmEWpeAHpEQT32B1o");
+      })();
+    </script>
     {% endif %}
     
     <link rel="stylesheet" type="text/css" href="/style/post.css" />
