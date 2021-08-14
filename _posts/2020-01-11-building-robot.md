@@ -1,6 +1,6 @@
 ---
 title: 'Week 1 robot progress'
-author: 'z'
+author: 'Sytse de Boer en Tom Dunant Maurits'
 summary: >- # This is used in the description of google searches. Use as many keywords as possible.
   Today we continued building and designing our robot!
 thumbnail: '/res/posts/2020-01-11-robot-progress-week-1/working.jpeg'

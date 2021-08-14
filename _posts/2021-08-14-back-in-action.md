@@ -1,8 +1,8 @@
 ---
-title: 'Week 1 robot progress'
+title: 'Back In Action'
 author: 'Pieter Venderbos'
 summary: >- # This is used in the description of google searches. Use as many keywords as possible.
-We are back in business!
+  We are back in business!
 thumbnail: '/res/posts/2021-08-14-back-in-action/meeting.jpeg'
 ---
 
