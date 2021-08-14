@@ -1,13 +1,19 @@
 ---
 title: 'Week 1 robot progress'
-author: 'Pieter Venderbos'
+author: 'z'
 summary: >- # This is used in the description of google searches. Use as many keywords as possible.
-  We are back in business!
-thumbnail: '/res/posts/2021-08-14-back-in-action/meeting.jpeg'
+  Today we continued building and designing our robot!
+thumbnail: '/res/posts/2020-01-11-robot-progress-week-1/working.jpeg'
 ---
 
-We’re happy to announce that Impossible robotics will be back in action. Because of the Corona pandemic we sadly had to suspend our regular activities, but now that things are looking better and with some careful planning and preparation we expect to be able to start things back up. We will have more news to share soon!
+Today we continued  building and designing our robot.
 
-![meeting-image]
+We started by watching inspiring videos from “Robot in three days” where we got some inspiration for our creation. Later we went on making a part of our drive train, including assembling the gearboxes and the mecanum wheels. Assembling the mecanum wheels took more time than expected. 
 
-[meeting-image]: /res/posts/2021-08-14-back-in-action/meeting.jpeg
+We also built prototypes for the climbing mechanism. We had fun ideas, we decided on making a spring loaded arm wich can be moved back in with a rope. 
+
+In conclusion we couldn’t do everything we hoped to do but the base of our creation has been layed.
+
+![robot-image]
+
+[robot-image]: /res/posts/2020-01-11-robot-progress-week-1/working.jpeg
