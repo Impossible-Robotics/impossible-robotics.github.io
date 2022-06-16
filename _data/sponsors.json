@@ -1,97 +1,109 @@
 [
-    {
-      "name": "Victron Energy",
-      "image": "/res/logos/sponsors/victron_energy.png",
-      "url": "https://www.victronenergy.com/",
-      "is-main": true
-    },
-    {
-      "name": "NHL Stenden Hogeschool",
-      "image": "/res/logos/sponsors/nhl.png",
-      "url": "https://www.nhlstenden.com/",
-      "is-main": false
-    },
-    {
-      "name": "Hanzehogeschool",
-      "image": "/res/logos/sponsors/hanze.png",
-      "url": "https://www.hanze.nl/eng",
-      "is-main": false
-    },
-    {
-      "name": "Dutch Content Productions",
-      "image": "/res/logos/sponsors/dutch_content_productions.png",
-      "url": "https://dcp-tv.nl/",
-      "is-main": false
-    },
-    {
-      "name": "JB Besturingstechniek",
-      "image": "/res/logos/sponsors/jb_besturingstechniek.png",
-      "url": "https://www.jbbesturingstechniek.nl",
-      "is-main": false
-    },
-    {
-      "name": "Cadmatic",
-      "image": "/res/logos/sponsors/cadmatic.png",
-      "url": "https://www.cadmatic.com",
-      "is-main": false
-    },
-    {
-      "name": "Kisuma Chemicals",
-      "image": "/res/logos/sponsors/kitsuma.png",
-      "url": "https://www.kisuma.com",
-      "is-main": false
-    },
-    {
-      "name": "Kwant Controls",
-      "image": "/res/logos/sponsors/kwant_controls.png",
-      "url": "https://www.kwantcontrols.com",
-      "is-main": false
-    },
-    {
-      "name": "HR Groep",
-      "image": "/res/logos/sponsors/hr_groep.png",
-      "url": "https://www.hrgroep.nl",
-      "is-main": false
-    },
-    {
-      "name": "C&W Snijtechniek",
-      "image": "/res/logos/sponsors/cw_snijtechniek.png",
-      "url": "http://www.snijtechniek.com",
-      "is-main": false
-    },
-    {
-      "name": "Ijntema BV",
-      "image": "/res/logos/sponsors/ijntema_bv.png",
-      "url": "https://www.ijntema-bv.nl/",
-      "is-main": false
-    },
-    {
-      "name": "H-Tronics",
-      "image": "/res/logos/sponsors/h_tronics.png",
-      "is-main": false
-    },
-    {
-      "name": "Ultimaker",
-      "image": "/res/logos/sponsors/ultimaker.png",
-      "url": "https://ultimaker.com",
-      "is-main": false
-    },
-    {
-      "name": "Vos Systems",
-      "image": "/res/logos/sponsors/vos_systems.png",
-      "url": "http://vossystems.nl",
-      "is-main": false
-    },
-    {
-      "name": "Region of Smart Factories",
-      "image": "/res/logos/sponsors/rosf.png",
-      "url": "https://rosf.nl",
-      "is-main": false
-    },
-    {
-      "name": "Altium",
-      "image": "/res/logos/sponsors/altium.png",
-      "url": "https://www.altium.com",
-      "is-main": false
-    }
-  ]
+  {
+    "name": "Victron Energy",
+    "image": "/res/logos/sponsors/victron_energy.png",
+    "url": "https://www.victronenergy.com/",
+    "is-main": true
+  },
+  {
+    "name": "NHL Stenden Hogeschool",
+    "image": "/res/logos/sponsors/nhl.png",
+    "url": "https://www.nhlstenden.com/",
+    "is-main": false
+  },
+  {
+    "name": "Hanzehogeschool",
+    "image": "/res/logos/sponsors/hanze.png",
+    "url": "https://www.hanze.nl/eng",
+    "is-main": false
+  },
+  {
+    "name": "Dutch Content Productions",
+    "image": "/res/logos/sponsors/dutch_content_productions.png",
+    "url": "https://dcp-tv.nl/",
+    "is-main": false
+  },
+  {
+    "name": "JB Besturingstechniek",
+    "image": "/res/logos/sponsors/jb_besturingstechniek.png",
+    "url": "https://www.jbbesturingstechniek.nl",
+    "is-main": false
+  },
+  {
+    "name": "Cadmatic",
+    "image": "/res/logos/sponsors/cadmatic.png",
+    "url": "https://www.cadmatic.com",
+    "is-main": false
+  },
+  {
+    "name": "Kisuma Chemicals",
+    "image": "/res/logos/sponsors/kitsuma.png",
+    "url": "https://www.kisuma.com",
+    "is-main": false
+  },
+  {
+    "name": "Kwant Controls",
+    "image": "/res/logos/sponsors/kwant_controls.png",
+    "url": "https://www.kwantcontrols.com",
+    "is-main": false
+  },
+  {
+    "name": "HR Groep",
+    "image": "/res/logos/sponsors/hr_groep.png",
+    "url": "https://www.hrgroep.nl",
+    "is-main": false
+  },
+  {
+    "name": "C&W Snijtechniek",
+    "image": "/res/logos/sponsors/cw_snijtechniek.png",
+    "url": "http://www.snijtechniek.com",
+    "is-main": false
+  },
+  {
+    "name": "Ijntema BV",
+    "image": "/res/logos/sponsors/ijntema_bv.png",
+    "url": "https://www.ijntema-bv.nl/",
+    "is-main": false
+  },
+  {
+    "name": "H-Tronics",
+    "image": "/res/logos/sponsors/h_tronics.png",
+    "is-main": false
+  },
+  {
+    "name": "Ultimaker",
+    "image": "/res/logos/sponsors/ultimaker.png",
+    "url": "https://ultimaker.com",
+    "is-main": false
+  },
+  {
+    "name": "Vos Systems",
+    "image": "/res/logos/sponsors/vos_systems.png",
+    "url": "http://vossystems.nl",
+    "is-main": false
+  },
+  {
+    "name": "Region of Smart Factories",
+    "image": "/res/logos/sponsors/rosf.png",
+    "url": "https://rosf.nl",
+    "is-main": false
+  },
+  {
+    "name": "Altium",
+    "image": "/res/logos/sponsors/altium.png",
+    "url": "https://www.altium.com",
+    "is-main": false
+  },
+  {
+    "name": "The Thrifty Bot",
+    "image": "/res/logos/sponsors/the-trifty-bot.png",
+    "url": "https://www.thethriftybot.com",
+    "is-main": false
+  },
+  {
+    "name": "GoBilda",
+    "image": "/res/logos/sponsors/gobilda.svg",
+    "url": "https://www.gobilda.com/",
+    "is-main": false
+  }
+]
